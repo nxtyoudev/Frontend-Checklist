@@ -22,3 +22,10 @@
   - [ ] Validate Facebook (https://developers.facebook.com/tools/debug/)
   - [ ] Validate Twitter (https://cards-dev.twitter.com/validator)
 - [ ] Implement Open Graph (https://ogp.me/)
+
+## Final check before sending to client
+- [ ] Use SVGs for all icons
+- [ ] All images are sharp and clear on all resolutions (if not, export images in 2x, 3x or 4x from Figma)
+- [ ] Illustrations are PNGs or SVGs, images are JPEGs
+- [ ] Recheck all Spacings with Figma
+- [ ] Recheck all font sizes with Figma
