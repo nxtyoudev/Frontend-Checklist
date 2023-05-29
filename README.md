@@ -23,9 +23,14 @@
   - [ ] Validate Twitter (https://cards-dev.twitter.com/validator)
 - [ ] Implement Open Graph (https://ogp.me/)
 
-## Final check before sending to client
+## Final check before sending to us
 - [ ] Use SVGs for all icons
 - [ ] All images are sharp and clear on all resolutions (if not, export images in 2x, 3x or 4x from Figma)
+- [ ] Images are compressed with 80% quality
 - [ ] Illustrations are PNGs or SVGs, images are JPEGs
-- [ ] Recheck all Spacings with Figma
-- [ ] Recheck all font sizes with Figma
+- [ ] Recheck all Spacings with Figma (on mobile and desktop)
+- [ ] Recheck all font sizes with Figma (on mobile and desktop)
+- [ ] All menu items are linked (on mobile and desktop)
+- [ ] All Buttons are linked (please ask us if you dont know what a Button should do!)
+- [ ] All Links are linked (Footer, Privacy Policy, Terms etc.)
+- [ ] Legal Pages exist
