@@ -1,5 +1,8 @@
 # Frontend-Checklist
 
+# Important
+- [ ] Only work in this organization, do NOT copy this repository and work on it on your own account - create branches if needed
+
 ## Best Practices
 - [ ] Check for dead links (https://www.deadlinkchecker.com/)
 - [ ] Check websites in all Browsers (Chrome, Firefox, Safari)
