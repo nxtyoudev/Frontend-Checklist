@@ -1,7 +1,8 @@
 # Frontend-Checklist
 
-# Important
+# Preparation
 - [ ] Only work in this organization, do NOT copy this repository and work on it on your own account - create branches if needed
+- [ ] Use this repo as a starter template: https://github.com/steven-tey/precedent
 
 ## Best Practices
 - [ ] Check for dead links (https://www.deadlinkchecker.com/)
@@ -17,6 +18,9 @@
 ## Perfomance
 - [ ] Google Pagespeed Score of 90+ (https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect)
 - [ ] Compress and optimize images (https://pageweight.imgix.com/)
+
+## Legal
+- [ ] Never use Google Fonts - Please use bunny.net fonts (Drop in replacement) https://fonts.bunny.net/about
 
 ## Usability
 - [ ] Favicon
