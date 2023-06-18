@@ -19,7 +19,7 @@ export default () => (
                 <span className="stat_item__h3">2903+</span>
                 <span className="stat_item__p">Unvergessliche Momente</span>
             </div>
-            <a className="btn main-btn__dark">
+            <a className="btn main-btn__dark hidden md:block">
                 <span>JETZT ANFRAGEN</span>
             </a>
         </div>

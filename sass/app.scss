@@ -75,7 +75,7 @@ body {
     justify-content: center;
     list-style: none;
     text-align: center;
-    justify-content: end;
+    justify-content: flex-end;
   }
   &__item {
     color: var(--color-neutral-grayish);
@@ -649,7 +649,7 @@ body {
       display: flex;
       width: 50%;
       margin-left: 40px;
-      justify-content: end;
+      justify-content: flex-end;
     }
   }
   &__bottom {

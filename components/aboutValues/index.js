@@ -6,52 +6,45 @@ import valuesImg from '../../public/assets/valuesImg.svg'
 import valuesImg2 from '../../public/assets/valuesImg2.svg'
 
 export default () => (
-  <div className="about-value-container">
-    <div className="about-value-image-container">
-    <img style={{width: 481, height: 525, zIndex: 5}} src={valuesImg} />
-    <img className='absolute-img' src={valuesImg2} />
-    <svg width="204" height="204" viewBox="0 0 204 204" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1.5" y="1.5" width="201" height="201" stroke="#196DB7" stroke-width="3"/>
-</svg>
-
-    </div>
-    <div className="about-value-text-container">
-      <div className="about-value-title">
-        <h2>MEINE WERTE</h2>
-        <h3>Nach diesen Werten lebe und arbeite ich.</h3>
+  <div className="md:mt-[120px] mt-9 md:px-[100px] px-4">
+    <div className="flex md:flex-row flex-col md:justify-center justify-start items-center md:gap-[57px] gap-">
+      <div className="md:flex hidden flex-row items-center">
+        <div className="relative">
+          <div className="absolute w-[204px] h-[204px] -bottom-[17px] -right-[35px] border-[3px] border-[#196DB7]"></div>
+          <img src="./assets/about5.png" className="w-[481px] relative z-10" />
+        </div>
+        <img src="./assets/about6.png" className="w-[357px] relative -translate-x-1/2 z-20" />
       </div>
-
-      <div className="about-value-text-tiles">
-        <div className="about-value-tile">
-          <img src={value1} />
-
-          <div className="about-value-text-main">
-            <h4>Zuverlässigkeit </h4>
-            <p>
-              Zuverlässigkeit ist der Schlüssel zu Erfolg und Zufriedenheit.
-            </p>
+      <div className="md:w-[475px] w-full">
+        <div className="md:text-base text-sm text-[#1E75EE]">
+          MEINE WERTE
+        </div>
+        <div className="mt-2.5 font-bold md:text-[48px] text-[32px] md:leading-[52px] leading-9 text-black md:text-start text-center">
+          Nach diesen Werten lebe und arbeite ich.
+        </div>
+        <div className="md:mt-11 mt-[30px] flex flex-col md:gap-[25px] gap-4">
+          <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-black">
+            <img src={value1} />
+            <div className="flex flex-col gap-2.5">
+              <div className="font-semibold text-[21px] leading-8 text-black">Zuverlässigkeit</div>
+              <div className="text-lg leading-7">Zuverlässigkeit ist der Schlüssel zu Erfolg und Zufriedenheit.</div>
+            </div>
+          </div>
+          <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-black">
+            <img src={value2} />
+            <div className="flex flex-col gap-2.5">
+              <div className="font-semibold text-[21px] leading-8 text-black">Qualität</div>
+              <div className="text-lg leading-7">Ich schätze Qualität als einen wertvollen Schatz</div>
+            </div>
+          </div>
+          <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-black">
+            <img src={value3} />
+            <div className="flex flex-col gap-2.5">
+              <div className="font-semibold text-[21px] leading-8 text-black">Vertrauen</div>
+              <div className="text-lg leading-7">Vertrauen ist der Grundpfeiler meines Wertesystems.</div>
+            </div>
           </div>
         </div>
-        <div className="about-value-tile">
-        <img src={value2} />
-
-          <div className="about-value-text-main">
-            <h4>Qualität </h4>
-            <p>Ich schätze Qualität als einen wertvollen Schatz</p>
-          </div>
-        </div>
-
-        <div className="about-value-tile">
-        <img src={value3} />
-
-          <div className="about-value-text-main">
-            <h4>Vertrauen </h4>
-            <p>Vertrauen ist der Grundpfeiler meines Wertesystems.</p>
-          </div>
-        </div>
-        <a type="button" className="btn btn-arrow">
-          JETZT ANFRAGEN
-        </a>
       </div>
     </div>
   </div>
