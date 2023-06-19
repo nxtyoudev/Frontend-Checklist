@@ -36,6 +36,8 @@ export default () => (
           <div className="font-medium text-base leading-6 text-[#1E75EE]">ÜBER UNS</div>
           <div className="mt-7 flex flex-col gap-2.5">
             <div className="font-medium text-sm leading-5 text-white">Über mich</div>
+            <div className="font-medium text-sm leading-5 text-white">Impressum</div>
+            <div className="font-medium text-sm leading-5 text-white">Datenschutz</div>
           </div>
         </div>
         <div>
@@ -56,15 +58,19 @@ export default () => (
         </div>
         <div>
           <div className="font-medium text-base leading-6 text-[#1E75EE]">KONTAKTIEREN SIE UNS</div>
-          <div className="mt-7 flex flex-row items-center gap-8">
+          <a className="mt-7 flex flex-row items-center gap-8" href="mailto:info@mg-pools.de" target="_blank">
             <img src={EmailSvg} />
             <div className="flex flex-col gap-3">
               <div className="text-base leading-4 text-white">EMAIL</div>
               <div className="font-medium text-[22px] leading-4 text-white">info@mg-pools.de</div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
+    </div>
+    <div className="md:mt-[100px] mt-8 font-medium text-xs leading-4 text-white text-center">
+      <div>MG Schwimmbadtechnik © 2023</div>
+      <div>Webdesign by NXT-YOU GmbH</div>
     </div>
   </footer>
 );
