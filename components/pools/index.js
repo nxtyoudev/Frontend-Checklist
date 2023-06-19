@@ -52,21 +52,21 @@ export default () => (
         <div className='pr-[50px] md:pr-[0]'>
           <Carousel responsive={responsive} itemClass="px-[5px]" infinite={true} partialVisible={true} rtl={true} arrows={false} renderButtonGroupOutside={true} customButtonGroup={<ButtonGroup />}>
             <div className="relative">
-              <img src='./assets/stat_carousel2.png' />
+              <img className='max-h-[660px]' src='./assets/stat_carousel2.png' />
               <div className='absolute bottom-[70px] w-full text-white'>
                 <div className="text-center text-[16px]">AUßEN</div>
                 <div className="text-center text-[32px]">Poolanalgen</div>
               </div>
             </div>
             <div className="relative">
-              <img src='./assets/stat_carousel3.png' />
+              <img className='max-h-[660px]' src='./assets/stat_carousel3.png' />
               <div className='absolute bottom-[70px] w-full text-white'>
                 <div className="text-center text-[16px]">INNEN</div>
                 <div className="text-center text-[32px]">Poolanalgen</div>
               </div>
             </div>
             <div className="relative">
-              <img src='./assets/stat_carousel1.jpg' />
+              <img className='max-h-[660px]' src='./assets/stat_carousel1.jpg' />
               <div className='absolute bottom-[70px] w-full text-white'>
                 <div className="text-center text-[16px]">INDOR</div>
                 <div className="text-center text-[32px]">Hotelanlagen</div>
@@ -99,21 +99,21 @@ export default () => (
         <div className='pr-[50px] md:pr-[0]'>
           <Carousel responsive={responsive} itemClass="px-[5px]" infinite={true} partialVisible={true} rtl={true} arrows={false} renderButtonGroupOutside={true} customButtonGroup={<ButtonGroup />}>
             <div className="relative">
-              <img src='./assets/stat_carousel2.png' />
+              <img className='max-h-[660px]' src='./assets/stat_carousel2.png' />
               <div className='absolute bottom-[70px] w-full text-white'>
                 <div className="text-center text-[16px]">AUßEN</div>
                 <div className="text-center text-[32px]">Poolanalgen</div>
               </div>
             </div>
             <div className="relative">
-              <img src='./assets/stat_carousel3.png' />
+              <img className='max-h-[660px]' src='./assets/stat_carousel3.png' />
               <div className='absolute bottom-[70px] w-full text-white'>
                 <div className="text-center text-[16px]">INNEN</div>
                 <div className="text-center text-[32px]">Poolanalgen</div>
               </div>
             </div>
             <div className="relative">
-              <img src='./assets/stat_carousel1.jpg' />
+              <img className='max-h-[660px]' src='./assets/stat_carousel1.jpg' />
               <div className='absolute bottom-[70px] w-full text-white'>
                 <div className="text-center text-[16px]">INDOR</div>
                 <div className="text-center text-[32px]">Hotelanlagen</div>

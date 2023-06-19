@@ -35,7 +35,7 @@ const carouselContent = (a, b, c, d, e) => {
         <div className="">
           <div className="px-[20px] md:px-[100px] relative text-center md:text-start">
             <h2 className="text-[32px] md:text-[48px] font-bold">{a}</h2>
-            <img src={Quote} width={86} className="absolute md:block py-[30px] bottom-0" />
+            <img src={Quote} width={86} className="absolute md:static py-[30px] bottom-0" />
             <h3 className="text-[28px] ">{b} </h3>
             <div className="">
               <h4 className="text-[21px] mt-[25px] mb-[15px]">{c}</h4>
