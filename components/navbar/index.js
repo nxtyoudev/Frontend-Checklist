@@ -43,7 +43,7 @@ export default () => {
             </nav>
           </div>
           <div className='flex-[1] flex justify-center'>
-            <img src="./assets/header_logo.svg" alt="trafalgar logo" />
+            <img src="./assets/header-logo.png" alt="trafalgar logo" className="w-[90px]" />
           </div>
           <div className='flex-[2] flex justify-end '>
 

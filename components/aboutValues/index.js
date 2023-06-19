@@ -45,6 +45,9 @@ export default () => (
             </div>
           </div>
         </div>
+        <button className="md:w-auto w-full mt-[30px] px-[24px] py-[14px] bg-[#1E75EE]">
+          <div className="font-medium text-base leading-5 text-white uppercase">JETZT ANFRAGEN</div>
+        </button>
       </div>
     </div>
   </div>

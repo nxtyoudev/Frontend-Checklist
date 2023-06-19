@@ -25,7 +25,7 @@ export default () => (
           </div>
         </div>
         <div className=''>
-          <button type="button" className="text-white text-[16px]  bg-[#1E75EE] px-[24px] py-[14px] mt-[20px]">
+          <button type="button" className="text-white text-[16px]  bg-[#1E75EE] px-[48px] py-[14px] mt-[20px]">
             ÜBER MICH
           </button>
         </div>
@@ -106,7 +106,7 @@ export default () => (
           </div>
         </div>
         <div className=''>
-          <button type="button" className="w-full md:w-[180px] text-white text-[16px]  bg-[#1E75EE] px-[24px] py-[14px] mt-[20px]">
+          <button type="button" className="w-full md:w-[180px] text-white text-[16px]  bg-[#1E75EE] px-[24px] py-[14px] mt-[20px] uppercase">
             Jetzt anfragen
           </button>
         </div>
