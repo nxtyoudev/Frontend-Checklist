@@ -58,7 +58,7 @@ const FAQ = () => {
         <div className="relative flex-1 z-10">
           {faqData.map((item, idx) => (
             idx % 2 == 0 && (
-              <div key={idx} className="px-[30px] py-[36px] bg-white" style={{ boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.06)' }}>
+              <div key={idx} className="md:mt-4 mt-2.5 px-[30px] py-[36px] bg-white" style={{ boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.06)' }}>
                 <div className="flex justify-between gap-8 cursor-pointer items-center relative" onClick={() => toggle(idx)}>
                   <div>{item.question}</div>
                   <div><PlusIcon className={`${clicked !== idx ? 'open_icon' : 'hidden'}`} />  <MinusIcon className={`${clicked !== idx ? 'hidden' : 'open_icon mt-2'}`} /></div>
@@ -74,7 +74,7 @@ const FAQ = () => {
         <div className="relative flex-1 z-10">
           {faqData.map((item, idx) => (
             idx % 2 == 1 && (
-              <div key={idx} className="px-[30px] py-[36px] bg-white" style={{ boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.06)' }}>
+              <div key={idx} className="md:mt-4 mt-2.5 px-[30px] py-[36px] bg-white" style={{ boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.06)' }}>
                 <div className="flex justify-between gap-4 cursor-pointer items-center" onClick={() => toggle(idx)}>
                   <div>{item.question}</div>
                   <div><PlusIcon className={`${clicked !== idx ? 'open_icon' : 'hidden'}`} />  <MinusIcon className={`${clicked !== idx ? 'hidden' : 'open_icon mt-2'}`} /></div>
