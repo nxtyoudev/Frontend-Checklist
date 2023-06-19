@@ -25,7 +25,7 @@ export default () => {
     <>
       <header className={`${visible ? "" : "bg-white"} ${
         isMenuActive && "bg-white"
-      }  fixed w-full z-[1000] top-0`}>
+      }  fixed w-full z-[1000] top-0 lg:bg-white`}>
         <div className="container mx-auto px-6 py-3 flex justify-between items-center h-[97px]">
           <div className="hidden lg:flex justify-between items-center flex-[2]  ">
             <nav className="">

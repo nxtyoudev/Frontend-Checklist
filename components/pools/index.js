@@ -48,7 +48,7 @@ const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
 export default () => (
   <>
     <section className='relative'>
-      <div className='hidden md:block grid grid-cols-1 md:grid-cols-2 pt-[20px] pb-[70px]'>
+      <div className='hidden md:grid grid-cols-1 md:grid-cols-2 pt-[20px] pb-[70px]'>
         <div className='pr-[50px] md:pr-[0]'>
           <Carousel responsive={responsive} itemClass="px-[5px]" infinite={true} partialVisible={true} rtl={true} arrows={false} renderButtonGroupOutside={true} customButtonGroup={<ButtonGroup />}>
             <div className="relative">

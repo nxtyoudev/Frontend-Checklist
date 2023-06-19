@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => (
   <section className='container mx-auto mb-[100px]'>
-    <div className='hidden md:block grid grid-cols-1 lg:grid-cols-2'>
+    <div className='hidden md:grid grid-cols-1 lg:grid-cols-2'>
       <div className='p-20'>
         <img src='./assets/cta_photo.png' />
       </div>

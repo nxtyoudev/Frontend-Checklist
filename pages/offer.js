@@ -2,7 +2,7 @@ import Head from 'next/head'
 import React from 'react'
 import OfferHero from '../components/offerHero'
 import AboutNavbar from '../components/aboutNavbar';
-import OfferServices from '../components/offerServices';
+import Footer from '../components/footer'
 
 const offer = () => {
   return (
@@ -14,7 +14,7 @@ const offer = () => {
       <div className="w-full flex flex-col items-center">
         <OfferHero />
       </div>
-        {/* <OfferServices /> */}
+      <Footer />
     </div>
   )
 }
