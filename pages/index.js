@@ -2,8 +2,11 @@ import React from 'react';
 import Head from 'next/head';
 
 import {
-  Services, Contents, Hero, Statbar, Navbar, Footer, Pools, CTA, Trust, Reference, Faq,
+  Services, Contents, Hero, Statbar, Navbar, Footer, Pools, CTA, Trust,
 } from '../components';
+import AboutBrands from '../components/aboutBrands';
+import AboutReviews from '../components/aboutReviews';
+import Faq from '../components/Faqs';
 
 export default () => (
   <div>
@@ -16,7 +19,9 @@ export default () => (
     <Pools />
     <CTA />
     <Trust />
-    <Reference />
+    <AboutBrands />
+    <AboutReviews />
+    <Faq />
     <Footer />
   </div>
 );

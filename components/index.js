@@ -1,6 +1,5 @@
 import Contents from './contents';
 import CTA from './cta';
-import Faq from './faq';
 import Footer from './footer';
 import Hero from './hero';
 import Navbar from './navbar';
@@ -20,7 +19,6 @@ export {
   CTA,
   Trust,
   Reference,
-  Faq,
   Services,
   Statbar,
   AboutDescription,

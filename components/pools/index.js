@@ -16,7 +16,7 @@ const responsive = {
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 2,
+    items: 1,
     partialVisibilityGutter: 40
   },
   mobile: {
@@ -28,7 +28,7 @@ const responsive = {
 const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
   const { carouselState: { currentSlide } } = rest;
   return (
-    <div className="absolute right-2/4 bottom-[80px]">
+    <div className="absolute  right-[50px] md:right-2/4 bottom-[80px]">
       <div className='flex gap-8'>
         <button onClick={() => next()}>
           <svg width="50" height="12" viewBox="0 0 50 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,30 +48,32 @@ const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
 export default () => (
   <>
     <section className='relative'>
-      <div className='grid grid-cols-2 pt-[20px] pb-[70px]'>
-        <Carousel responsive={responsive} itemClass="px-[5px]" infinite={true} partialVisible={true} rtl={true} arrows={false} renderButtonGroupOutside={true} customButtonGroup={<ButtonGroup />}>
-          <div className="relative">
-            <img src='./assets/stat_carousel2.png' />
-            <div className='absolute bottom-[70px] w-full text-white'>
-              <div className="text-center text-[16px]">AUßEN</div>
-              <div className="text-center text-[32px]">Poolanalgen</div>
+      <div className='hidden md:grid grid-cols-1 md:grid-cols-2 pt-[20px] pb-[70px]'>
+        <div className='pr-[50px] md:pr-[0]'>
+          <Carousel responsive={responsive} itemClass="px-[5px]" infinite={true} partialVisible={true} rtl={true} arrows={false} renderButtonGroupOutside={true} customButtonGroup={<ButtonGroup />}>
+            <div className="relative">
+              <img src='./assets/stat_carousel2.png' />
+              <div className='absolute bottom-[70px] w-full text-white'>
+                <div className="text-center text-[16px]">AUßEN</div>
+                <div className="text-center text-[32px]">Poolanalgen</div>
+              </div>
             </div>
-          </div>
-          <div className="relative">
-            <img src='./assets/stat_carousel3.png' />
-            <div className='absolute bottom-[70px] w-full text-white'>
-              <div className="text-center text-[16px]">INNEN</div>
-              <div className="text-center text-[32px]">Poolanalgen</div>
+            <div className="relative">
+              <img src='./assets/stat_carousel3.png' />
+              <div className='absolute bottom-[70px] w-full text-white'>
+                <div className="text-center text-[16px]">INNEN</div>
+                <div className="text-center text-[32px]">Poolanalgen</div>
+              </div>
             </div>
-          </div>
-          <div className="relative">
-            <img src='./assets/stat_carousel1.jpg' />
-            <div className='absolute bottom-[70px] w-full text-white'>
-              <div className="text-center text-[16px]">INDOR</div>
-              <div className="text-center text-[32px]">Hotelanlagen</div>
+            <div className="relative">
+              <img src='./assets/stat_carousel1.jpg' />
+              <div className='absolute bottom-[70px] w-full text-white'>
+                <div className="text-center text-[16px]">INDOR</div>
+                <div className="text-center text-[32px]">Hotelanlagen</div>
+              </div>
             </div>
-          </div>
-        </Carousel>
+          </Carousel>
+        </div>
         <div className='flex flex-col justify-center pl-[20px]'>
           <div className='text-[16px] text-[#1E75EE]'>UNSERE POOLS</div>
           <h2 className='text-[48px] text-black font-bold max-w-2xl'>Dein zuverlässiger Partner rund um Deinen Pool</h2>
@@ -83,7 +85,44 @@ export default () => (
           </div>
         </div>
       </div>
-      <hr className='py-4 container mx-auto'/>
+      <div className='md:hidden grid grid-cols-1 md:grid-cols-2 pt-[20px] pb-[70px] gap-8'>
+        <div className='flex flex-col justify-center px-[20px]'>
+          <div className='text-[14px] text-[#1E75EE]'>UNSERE POOLS</div>
+          <h2 className='text-[32px] text-black font-bold max-w-2xl'>Dein zuverlässiger Partner rund um Deinen Pool</h2>
+          <p className='text-[16px] text-black  max-w-md'>Mit uns baust Du Deinen Traumpool nach Deinen Wünschen und sparen dabei nachhaltig Energie.</p>
+          <div>
+            <button type="button" className="w-full  text-white text-[16px]  bg-[#1E75EE] px-[24px] py-[14px] mt-[20px]">
+              JETZT ANFRAGEN
+            </button>
+          </div>
+        </div>
+        <div className='pr-[50px] md:pr-[0]'>
+          <Carousel responsive={responsive} itemClass="px-[5px]" infinite={true} partialVisible={true} rtl={true} arrows={false} renderButtonGroupOutside={true} customButtonGroup={<ButtonGroup />}>
+            <div className="relative">
+              <img src='./assets/stat_carousel2.png' />
+              <div className='absolute bottom-[70px] w-full text-white'>
+                <div className="text-center text-[16px]">AUßEN</div>
+                <div className="text-center text-[32px]">Poolanalgen</div>
+              </div>
+            </div>
+            <div className="relative">
+              <img src='./assets/stat_carousel3.png' />
+              <div className='absolute bottom-[70px] w-full text-white'>
+                <div className="text-center text-[16px]">INNEN</div>
+                <div className="text-center text-[32px]">Poolanalgen</div>
+              </div>
+            </div>
+            <div className="relative">
+              <img src='./assets/stat_carousel1.jpg' />
+              <div className='absolute bottom-[70px] w-full text-white'>
+                <div className="text-center text-[16px]">INDOR</div>
+                <div className="text-center text-[32px]">Hotelanlagen</div>
+              </div>
+            </div>
+          </Carousel>
+        </div>
+      </div>
+      <hr className='py-4 container mx-auto' />
     </section >
   </>
 );

@@ -2,17 +2,19 @@ import Head from 'next/head'
 import React from 'react'
 import OfferHero from '../components/offerHero'
 import AboutNavbar from '../components/aboutNavbar';
-import OfferServices from '../components/offerServices';
+import Footer from '../components/footer'
 
 const offer = () => {
   return (
     <div>
-        <Head>
-            <title>Offer</title>
-        </Head>
-        <AboutNavbar />
+      <Head>
+        <title>Offer</title>
+      </Head>
+      <AboutNavbar />
+      <div className="w-full flex flex-col items-center">
         <OfferHero />
-        <OfferServices />
+      </div>
+      <Footer />
     </div>
   )
 }

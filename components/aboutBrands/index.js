@@ -32,12 +32,9 @@ const carouselData = [
 ]
 
 export default () => (
-    <div className="about-brands-container">
-        <div className="about-brands-title">
-            <h2>Unsere kunden</h2>
-            <h3>Diese Kunden vertrauten uns bereits</h3>
-        </div>
-
+    <div className="about-brands-container overflow-hidden px-[15px] md:px-[100px] items-start md:items-center">
+        <div className='text-left md:text-center text-[14px] md:text-[16px] text-[#1E75EE]'>Unsere kunden</div>
+        <div className='text-left md:text-center font-bold  text-[32px] md:text-[48px]'>Diese Kunden vertrauten uns bereits</div>
         <div className="about-brands-carousel">
             {carouselData.map((carousel, index) => (
                 <img src={carousel.img} key={index} />
