@@ -6,7 +6,7 @@ import AboutRectangleMobile from '../../public/assets/aboutrectangle-mobile.svg'
 import DiamondSvg from '../../public/assets/aboutdiamond.svg'
 
 export default () => (
-  <div className="max-w-[1440px] py-[71px]">
+  <div className="max-w-[1440px] py-[71px] mt-[50px] md:mt-[97px]">
     <div className='flex flex-col md:gap-5 gap-2.5 items-center justify-center'>
       <div className="md:w-[515px] w-full font-bold text-black md:text-[44px] text[32px] md:leading-[44px] leading-8 text-center">
         Wir liefern wir unvergessliche Sommer
@@ -218,21 +218,21 @@ export default () => (
             Nach diesen Werten lebe und arbeite ich.
           </div>
           <div className="md:mt-11 mt-[30px] flex flex-col md:gap-[25px] gap-4">
-            <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-black">
+            <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-[#CCDBDC]">
               <img src={HandsSvg} />
               <div className="flex flex-col gap-2.5">
                 <div className="font-semibold text-[21px] leading-8 text-black">Zuverlässigkeit</div>
                 <div className="text-lg leading-7">Zuverlässigkeit ist der Schlüssel zu Erfolg und Zufriedenheit.</div>
               </div>
             </div>
-            <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-black">
+            <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-[#CCDBDC]">
               <img src={DiamondSvg} />
               <div className="flex flex-col gap-2.5">
                 <div className="font-semibold text-[21px] leading-8 text-black">Qualität</div>
                 <div className="text-lg leading-7">Ich schätze Qualität als einen wertvollen Schatz</div>
               </div>
             </div>
-            <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-black">
+            <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-[#CCDBDC]">
               <img src={MedalSvg} />
               <div className="flex flex-col gap-2.5">
                 <div className="font-semibold text-[21px] leading-8 text-black">Vertrauen</div>

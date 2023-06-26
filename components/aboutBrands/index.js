@@ -35,16 +35,32 @@ export default () => (
     <div className="about-brands-container overflow-hidden px-[15px] md:px-[100px] items-start md:items-center">
         <div className='text-left md:text-center text-[14px] md:text-[16px] text-[#1E75EE] uppercase'>Unsere kunden</div>
         <div className='text-left md:text-center font-bold  text-[32px] md:text-[48px]'>Diese Kunden vertrauten uns bereits</div>
-        <div className="about-brands-carousel">
+        {/* <div className="about-brands-carousel">
             {carouselData.map((carousel, index) => (
                 <img src={carousel.img} key={index} />
             ))}
-            <img src={brands1} />
-            <img src={brands2} />
-            <img src={brands3} />
-            <img src={brands4} />
-            <img src={brands5} />
-            <img src={brands6} />
-        </div>
+        </div> */}
+        <section className="about-brands-carousel-section">
+            <article className="about-brands-carousel-article">
+                <div className="about-brands-carousel-div">
+                    <ul className="items-center gap-8 justify-around">
+                        {carouselData.map((carousel, index) => (
+                            <li>
+                                <img src={carousel.img} key={index} />
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                <div className="about-brands-carousel-div">
+                    <ul className="items-center gap-8 justify-around">
+                        {carouselData.map((carousel, index) => (
+                            <li>
+                                <img src={carousel.img} key={index} />
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </article>
+        </section>
     </div>
 )

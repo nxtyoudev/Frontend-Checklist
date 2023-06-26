@@ -101,7 +101,7 @@ const carouselContent = (a, b, c, d, e) => {
                   />
                 </svg>
               </div>
-              <p className="text-[16px] md:text-[18px] mt-[15px]">{d}</p>
+              <p className="text-[16px] md:text-[18px] mt-[15px] sm:max-w-sm md:max-w-md">{d}</p>
               <div className="flex gap-4 mt-[25px] justify-center md:justify-start">
                 <button className="border border-[rgba(0,0,0,0.2)] px-[7px] py-[14px]">23m³</button>
                 <button className="border border-[rgba(0,0,0,0.2)] px-[7px] py-[14px]">600L</button>

@@ -68,7 +68,7 @@ export default () => (
         </div>
       </div>
     </div>
-    <div className="md:mt-[100px] mt-8 font-medium text-xs leading-4 text-white text-center">
+    <div className="md:mt-[100px] mt-8 font-medium text-xs leading-4 text-white text-center md:text-start">
       <div>MG Schwimmbadtechnik © 2023</div>
       <div>Webdesign by NXT-YOU GmbH</div>
     </div>

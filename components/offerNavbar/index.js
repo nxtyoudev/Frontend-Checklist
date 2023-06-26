@@ -34,10 +34,10 @@ export default () => {
                   <a className="px-4 py-2 text-[18px] font-normal text-black" href="/">Startseite</a>
                 </li>
                 <li>
-                  <a className="px-4 py-2 text-[18px] font-semibold text-black" href="/about">Über Mich</a>
+                  <a className="px-4 py-2 text-[18px] font-normal text-black" href="/about">Über Mich</a>
                 </li>
                 <li>
-                  <a className="px-4 py-2 text-[18px] font-normal text-black" href="/offer">Angebot</a>
+                  <a className="px-4 py-2 text-[18px] font-semibold text-black" href="/offer">Angebot</a>
                 </li>
               </ul>
             </nav>
@@ -54,15 +54,15 @@ export default () => {
                 onClick={handleClick}
               >
                 <span
-                  className={`block h-[3px] w-7 rounded-full ${visible ? "bg-white" : "bg-black"
+                  className={`block h-[3px] w-7 rounded-full ${visible ? "bg-black" : "bg-black"
                     } transition-all group-hover:bg-gallery`}
                 ></span>
                 <span
-                  className={`block h-[3px] w-7 rounded-full ${visible ? "bg-white" : "bg-black"
+                  className={`block h-[3px] w-7 rounded-full ${visible ? "bg-black" : "bg-black"
                     } transition-all group-hover:bg-gallery`}
                 ></span>
                 <span
-                  className={`block h-[3px] w-7 rounded-full ${visible ? "bg-white" : "bg-black"
+                  className={`block h-[3px] w-7 rounded-full ${visible ? "bg-black" : "bg-black"
                     } transition-all group-hover:bg-gallery`}
                 ></span>
               </button>

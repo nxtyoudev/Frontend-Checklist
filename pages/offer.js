@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
 import OfferHero from '../components/offerHero'
-import AboutNavbar from '../components/aboutNavbar';
+import OfferNavbar from '../components/offerNavbar';
 import Footer from '../components/footer'
 
 const offer = () => {
@@ -10,7 +10,7 @@ const offer = () => {
       <Head>
         <title>Offer</title>
       </Head>
-      <AboutNavbar />
+      <OfferNavbar />
       <div className="w-full flex flex-col items-center">
         <OfferHero />
       </div>
