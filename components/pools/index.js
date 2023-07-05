@@ -76,7 +76,7 @@ export default () => (
         </div>
         <div className='flex flex-col justify-center pl-[20px]'>
           <div className='text-[16px] text-[#1E75EE]'>UNSERE POOLS</div>
-          <h2 className='text-[48px] text-black font-bold max-w-2xl'>Dein zuverlässiger Partner rund um Deinen Pool</h2>
+          <h2 className='text-[48px] text-black font-bold max-w-2xl leading-[110%] mb-6'>Dein zuverlässiger Partner rund um Deinen Pool</h2>
           <p className='text-[18px] text-black  max-w-md'>Mit uns baust Du Deinen Traumpool nach Deinen Wünschen und sparen dabei nachhaltig Energie.</p>
           <div>
             <button type="button" className="text-white text-[16px]  bg-[#1E75EE] px-[24px] py-[14px] mt-[20px]">
@@ -88,7 +88,7 @@ export default () => (
       <div className='md:hidden grid grid-cols-1 md:grid-cols-2 pt-[20px] pb-[70px] gap-8'>
         <div className='flex flex-col justify-center px-[20px]'>
           <div className='text-[14px] text-[#1E75EE]'>UNSERE POOLS</div>
-          <h2 className='text-[32px] text-black font-bold max-w-2xl'>Dein zuverlässiger Partner rund um Deinen Pool</h2>
+          <h2 className='text-[32px] text-black font-bold max-w-2xl leading-[110%]'>Dein zuverlässiger Partner rund um Deinen Pool</h2>
           <p className='text-[16px] text-black  max-w-md'>Mit uns baust Du Deinen Traumpool nach Deinen Wünschen und sparen dabei nachhaltig Energie.</p>
           <div>
             <button type="button" className="w-full  text-white text-[16px]  bg-[#1E75EE] px-[24px] py-[14px] mt-[20px]">

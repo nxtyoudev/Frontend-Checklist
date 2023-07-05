@@ -217,8 +217,11 @@ body {
   text-align: center;
   overflow: hidden;
   @media screen and (max-width: 960px) {
+    background: url(../public/assets/Background-Image2.jpg) no-repeat center;
     flex-direction: column;
     padding: 0 0 10rem 2rem;
+    background-attachment: local;
+    background-size: cover;
   }
   &__text-box {
     text-align: center;
@@ -275,17 +278,21 @@ body {
 }
 
 .headerAbout {
-  background: url("../public/assets/heroAbout.png") no-repeat center,
+  background: url("../public/assets/heroAbout.jpg") no-repeat center,
     linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.477));
   background-size: cover;
   background-attachment: fixed;
+  @media only screen and (max-width: 767.98px) {
+    background: url("../public/assets/heroAboutMobile.jpg");
+    background-size: cover;
+  }
 }
 
 .header_info_holder {
   width: 60%;
   margin: 16rem 0 8rem 0;
   @media only screen and (max-width: 960px) {
-    width: 80%;
+    width: 100%;
   }
 }
 
