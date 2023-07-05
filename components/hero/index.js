@@ -5,16 +5,16 @@ export default () => (
     <section className="header" id="hero">
       <div className="header_info_holder">
         <div className="header__draw">
-          <h1 className='font-bold text-[50px]'>seit</h1>
+          <h1 className='font-bold md:text-[50px] text-[38px]'>seit</h1>
           <img
             src="./assets/hero_logo.png"
             alt="illustration"
           />
-          <h1 className='font-bold text-[50px]'>2018</h1>
+          <h1 className='font-bold md:text-[50px] text-[38px]'>2018</h1>
         </div>
         <div className="header__text-box mt-[20px]">
           <h1 className='font-bold text-[44px]'>Liefern wir<br />unvergessliche Sommer</h1>
-          <p className='mt-[15px]'>
+          <p className='mt-[30px]'>
             pünktlich – hochwertig – verlässlich – kundenorientiert
           </p>
           <a type="button" className=" flex items-center text-white gap-4  bg-[#1E75EE] px-[18px] py-[21px]">

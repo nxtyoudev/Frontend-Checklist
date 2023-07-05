@@ -239,13 +239,13 @@ body {
     }
     h1 {
       font-size: 3rem;
-      line-height: 3.1rem;
+      line-height: 100%;
       color: var(--color-primary-white);
       font-weight: 700;
       margin: -5px 0 -10px 0;
 
       @media only screen and (max-width: 960px) {
-        font-size: 2.5rem;
+        font-size: 2rem;
         width: 100%;
       }
     }
@@ -254,6 +254,8 @@ body {
       color: var(--color-primary-white);
       margin-bottom: 2.6rem;
       @media only screen and (max-width: 960px) {
+        font-size: 18px;
+        line-height: 150%;
         width: 100%;
       }
     }
@@ -269,6 +271,7 @@ body {
     align-items: center;
     flex: 0 0 50%;
     @media only screen and (max-width: 960px) {
+      padding-right: 2rem;
       order: 1;
     }
     img {
