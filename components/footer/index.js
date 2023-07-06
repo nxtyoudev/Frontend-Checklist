@@ -23,8 +23,8 @@ export default () => (
       <div className="flex-1 relative flex flex-row justify-end">
         <div className="relative md:mt-0 mt-[53px]">
           <div className="absolute md:block hidden w-[120px] h-[120px] -left-[19px] -bottom-[8px] border-[3px] border-[#196DB7]"></div>
-          <img src="./assets/footer-image.png" className="md:block hidden w-[399px] relative" />
-          <img src="./assets/footer-image-mobile.png" className="w-full md:hidden block" />
+          <img src="./assets/footer-image.jpg" className="md:block hidden w-[399px] relative" />
+          <img src="./assets/footer-image-mobile.jpg" className="w-full md:hidden block" />
         </div>
       </div>
     </div>

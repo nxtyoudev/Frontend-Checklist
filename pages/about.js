@@ -15,7 +15,7 @@ const about = () => {
         <div className="about-container">
             <Head>
                 <title>MG - Sommer</title>
-                <link rel="icon" href="/logo.png" />
+                <link rel="icon" href="/logo.jpg" />
             </Head>
             <AboutNavbar />
             <AboutHero />

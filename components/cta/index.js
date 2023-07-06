@@ -4,7 +4,7 @@ export default () => (
   <section className='container mx-auto mb-[100px]'>
     <div className='hidden md:grid grid-cols-1 lg:grid-cols-2'>
       <div className='p-20'>
-        <img src='./assets/cta_photo.png' />
+        <img src='./assets/cta_photo.jpg' />
       </div>
       <div className='flex flex-col justify-center pl-[20px]'>
         <div className='text-[16px] text-[#1E75EE]'>Über mich</div>
@@ -57,7 +57,7 @@ export default () => (
         </div>
       </div>
       <div className='pr-[50px] py-[35px]'>
-        <img src='./assets/cta_photo.png' />
+        <img src='./assets/cta_photo.jpg' />
       </div>
     </div>
     <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
@@ -66,7 +66,7 @@ export default () => (
         <h2 className='mt-2.5 text-[32px] md:text-[39px] text-black font-bold max-w-xl'>Unsere Angebot abgestimmt auf Deine Bedürfnisse</h2>
         <div className='flex justify-between flex-col max-w-[32rem] mt-[30px] gap-4'>
           <div className='flex border border-[#CCDBDC] px-[10px] md:px-[40px] py-[15px] items-center gap-8'>
-            <div ><img src='./assets/serviceIcon1.png' className='min-w-[30px] md:min-w-[60px]' /></div>
+            <div ><img src='./assets/serviceIcon1.jpg' className='min-w-[30px] md:min-w-[60px]' /></div>
             <div>
               <div className='text-[18px] md:text-[21px]'>NEUBAU DEINES POOLS</div>
               <div className='text-[14px] md:text-[16px] mt-[10px]'>Von der Planung bis zum Bau begleiten
@@ -74,14 +74,14 @@ export default () => (
             </div>
           </div>
           <div className='flex border border-[#CCDBDC] px-[10px] md:px-[40px] py-[15px] items-center gap-8'>
-            <div ><img src='./assets/serviceIcon2.png' className='min-w-[30px] md:min-w-[60px]' /></div>
+            <div ><img src='./assets/serviceIcon2.jpg' className='min-w-[30px] md:min-w-[60px]' /></div>
             <div>
               <div className='text-[18px] md:text-[21px]'>WARTUNG</div>
               <div className='text-[14px] md:text-[16px] mt-[10px]'>Wartung der Schwimmbadtechnik auch Witty, Ospa, Topras, Dinotec, BWT oder Sopra. </div>
             </div>
           </div>
           <div className='flex border border-[#CCDBDC] px-[10px] md:px-[40px] py-[15px] items-center gap-8'>
-            <div ><img src='./assets/serviceIcon3.png' className='min-w-[30px] md:min-w-[60px]' /></div>
+            <div ><img src='./assets/serviceIcon3.jpg' className='min-w-[30px] md:min-w-[60px]' /></div>
             <div>
               <div className='text-[18px] md:text-[21px]'>REPARATUR UND SERVICE</div>
               <div className='text-[14px] md:text-[16px] mt-[10px]'>Wir reparieren Deinen Pool komplett
@@ -89,7 +89,7 @@ export default () => (
             </div>
           </div>
           <div className='flex border border-[#CCDBDC] px-[10px] md:px-[40px] py-[15px] items-center gap-8'>
-            <div ><img src='./assets/serviceIcon4.png' className='min-w-[30px] md:min-w-[60px]' /></div>
+            <div ><img src='./assets/serviceIcon4.jpg' className='min-w-[30px] md:min-w-[60px]' /></div>
             <div>
               <div className='text-[18px] md:text-[21px]'>SANIERUNG & MODERNISIERUNG</div>
               <div className='text-[14px] md:text-[16px] mt-[10px]'>Wir bringen Deinen Pool auf den neuesten
@@ -97,7 +97,7 @@ export default () => (
             </div>
           </div>
           <div className='flex border border-[#CCDBDC] px-[10px] md:px-[40px] py-[15px] items-center gap-8'>
-            <div ><img src='./assets/serviceIcon5.png' className='min-w-[30px] md:min-w-[60px]' /></div>
+            <div ><img src='./assets/serviceIcon5.jpg' className='min-w-[30px] md:min-w-[60px]' /></div>
             <div>
               <div className='text-[18px] md:text-[21px]'>SMART TECHNIK</div>
               <div className='text-[14px] md:text-[16px] mt-[10px]'>Hochkomplexte Pooltechnik von Beleuchtung,
@@ -115,7 +115,7 @@ export default () => (
       </div>
       <div className='max-w-[700px]'>
         <div>
-          <img className=' pl-[5px] sm:pl-0 pr-[20px] sm:pr-0' src='./assets/cta_photo1.png' />
+          <img className=' pl-[5px] sm:pl-0 pr-[20px] sm:pr-0' src='./assets/cta_photo1.jpg' />
         </div>
       </div>
     </div>
