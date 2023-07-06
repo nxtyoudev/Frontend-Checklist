@@ -14,8 +14,14 @@ export default () => (
       <div className="mt-2.5 md:text-lg text-base md:leading-7 leading-6 text-black text-center">
         pünktlich – hochwertig – verlässlich – kundenorientiert
       </div>
+      <a href="https://formular.mg-pools.de/start/" target="_blank" className="mt-[57px] md:hidden flex items-center text-white gap-4  bg-[#1E75EE] px-[18px] py-[21px]">
+        <span className='text-[14px]'>JETZT ANFRAGEN</span>
+        <svg fill="currentColor" viewBox="0 0 16 16" height="1em">
+          <path fillRule="evenodd" d="M1 8a.5.5 0 01.5-.5h11.793l-3.147-3.146a.5.5 0 01.708-.708l4 4a.5.5 0 010 .708l-4 4a.5.5 0 01-.708-.708L13.293 8.5H1.5A.5.5 0 011 8z" />
+        </svg>
+      </a>
     </div>
-    <div className="relative w-full md:mt-[105px] mt-[51px] md:px-[100px] px-[15px]">
+    <div className="relative w-full md:mt-[105px] mt-[53px] md:px-[100px] px-[15px]">
       <div className="absolute md:w-[284px] w-[97px] md:h-[281px] h-[94px] md:-top-[50px] -top-[12px] md:right-[25px] right-0.5 border-[3px] border-[#196DB7]"></div>
       <img src='./assets/abouthero.png' className="relative md:block hidden md:w-auto w-full md:h-auto h-[325px] bg-cover" />
       <img src='./assets/abouthero-mobile.png' className="relative md:hidden block w-full h-[325px] bg-cover" />
