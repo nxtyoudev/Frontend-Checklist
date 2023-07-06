@@ -27,7 +27,7 @@ export default () => (
                 </a>
             </div>
         </div>
-        <div className='block lg:hidden mt-[-100px] py-[50px]' style={{ backgroundImage: 'url(/assets/stat_background.jpg)', backgroundSize: '100% 100%' }}>
+        <div className='block lg:hidden mt-[-100px] py-[50px]' style={{ backgroundImage: 'url(/assets/stat_background.png)', backgroundSize: '100% 100%' }}>
             <div className="">
                 <div className="flex flex-row justify-center gap-[52px] pl-[34px] pr-4">
                     <div className="text-center">
