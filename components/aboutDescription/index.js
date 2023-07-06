@@ -14,7 +14,7 @@ export default () => (
 				</div>
 			</div>
 			<div className="flex-1">
-				<img src="./assets/about-description.png" />
+				<img src="./assets/about-description.jpg" />
 			</div>
 		</div>
 		<div className="md:mt-[69px] mt-[30px] flex md:flex-row flex-col md:justify-center justify-start md:gap-[90px] gap-2.5">

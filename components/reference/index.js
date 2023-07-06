@@ -59,15 +59,15 @@ export default () => (
       <div className='text-center text-[16px] text-[#1E75EE]'>Unsere kunden</div>
       <div className='text-center font-bold text-[48px]'>Diese Kunden vertrauten uns bereits</div>
       <Carousel responsive={responsive} sliderClass='flex items-center' arrows={false} autoPlay={true} infinite={true} autoPlaySpeed={1000}>
-        <img src='./assets/1.png' />
-        <img src='./assets/2.png' />
-        <img src='./assets/3.png' />
-        <img src='./assets/4.png' />
-        <img src='./assets/5.png' />
-        <img src='./assets/6.png' />
-        <img src='./assets/7.png' />
-        <img src='./assets/8.png' />
-        <img src='./assets/9.png' />
+        <img src='./assets/1.jpg' />
+        <img src='./assets/2.jpg' />
+        <img src='./assets/3.jpg' />
+        <img src='./assets/4.jpg' />
+        <img src='./assets/5.jpg' />
+        <img src='./assets/6.jpg' />
+        <img src='./assets/7.jpg' />
+        <img src='./assets/8.jpg' />
+        <img src='./assets/9.jpg' />
       </Carousel>
     </div>
     <Carousel responsive={responsive1} itemClass="px-[5px]" infinite={true} partialVisible={true} rtl={true} arrows={false} renderButtonGroupOutside={true} customButtonGroup={<ButtonGroup />}>

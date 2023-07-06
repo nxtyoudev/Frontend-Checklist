@@ -23,8 +23,8 @@ export default () => (
     </div>
     <div className="relative w-full md:mt-[105px] mt-[53px] md:px-[100px] px-[15px]">
       <div className="absolute md:w-[284px] w-[97px] md:h-[281px] h-[94px] md:-top-[50px] -top-[12px] md:right-[25px] right-0.5 border-[3px] border-[#196DB7]"></div>
-      <img src='./assets/abouthero.png' className="relative md:block hidden md:w-auto w-full md:h-auto h-[325px] bg-cover" />
-      <img src='./assets/abouthero-mobile.png' className="relative md:hidden block w-full h-[325px] bg-cover" />
+      <img src='./assets/abouthero.jpg' className="relative md:block hidden md:w-auto w-full md:h-auto h-[325px] bg-cover" />
+      <img src='./assets/abouthero-mobile.jpg' className="relative md:hidden block w-full h-[325px] bg-cover" />
       <div className="absolute md:w-auto w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
         <div className="flex flex-row md:flex-nowrap flex-wrap items-center md:justify-start justify-center md:gap-24 gap-10">
           <div className="flex flex-col items-center">
@@ -60,8 +60,8 @@ export default () => (
       <div className="md:mt-[77px] mt-4 flex md:flex-row flex-col md:justify-between md:gap-[151px] gap-4 items-center">
         <div className="relative">
           <div className="absolute md:w-[204px] w-[90px] md:h-[204px] h-[76px] md:-bottom-[30px] -bottom-2.5 md:-right-[19px] -right-4 border-[3px] border-[#196DB7] z-0"></div>
-          <img src='./assets/about2.png' className="min-w-[469px] md:block hidden relative " />
-          <img src='./assets/aboutmobile2.png' className="w-full h-[190px] md:hidden block relative" />
+          <img src='./assets/about2.jpg' className="min-w-[469px] md:block hidden relative " />
+          <img src='./assets/aboutmobile2.jpg' className="w-full h-[190px] md:hidden block relative" />
         </div>
         <div>
           <div className="md:text-base text-sm leading-4 text-[#1E75EE]">01/ angebot</div>
@@ -80,7 +80,7 @@ export default () => (
       </div>
       <div className="md:mt-[45px] mt-[30px] flex md:flex-row flex-col md:justify-between md:gap-[151px] gap-4 items-center">
         <div className="relative md:hidden block">
-          <img src='./assets/aboutmobile3.png' className='w-full h-[190px] relative' />
+          <img src='./assets/aboutmobile3.jpg' className='w-full h-[190px] relative' />
         </div>
         <div>
           <div className="md:text-base text-sm leading-4 text-[#1E75EE]">02/ umsetzung</div>
@@ -97,15 +97,15 @@ export default () => (
           </a>
         </div>
         <div className="relative md:block hidden">
-          <img src='./assets/about3.png' className="min-w-[469px] relative" />
+          <img src='./assets/about3.jpg' className="min-w-[469px] relative" />
         </div>
       </div>
       <div className="md:mt-[45px] mt-[58px] flex md:flex-row flex-col md:justify-between md:gap-[151px] gap-4 items-center relative">
         <div className="md:hidden block absolute -top-[29px] -left-[30px] w-[90px] h-[76px] border-[3px] border-[#196DB7]"></div>
         <div className="relative">
           <div className="md:block hidden absolute w-[204px] h-[204px] -top-4 -right-7 border-[3px] border-[#196DB7] z-0"></div>
-          <img src='./assets/about4.png' className="min-w-[469px] md:block hidden relative " />
-          <img src='./assets/aboutmobile4.png' className="w-full md:hidden block relative" />
+          <img src='./assets/about4.jpg' className="min-w-[469px] md:block hidden relative " />
+          <img src='./assets/aboutmobile4.jpg' className="w-full md:hidden block relative" />
         </div>
         <div>
           <div className="md:text-base text-sm leading-4 text-[#1E75EE]">03/ Pflege und Wartung</div>
@@ -133,22 +133,22 @@ export default () => (
           <div className="absolute md:w-[204px] w-[142px] md:h-[204px] h-[142px] md:-top-7 -top-3 md:-left-9 -left-3 border-[3px] border-[#196DB7] z-0"></div>
           <div className="md:flex hidden flex-col gap-[17px] relative">
             <div className=" flex flex-row gap-[17px]">
-              <img src="./assets/about-gallery-1.png" className="w-[259px]" />
-              <img src="./assets/about-gallery-2.png" className="w-[536px]" />
+              <img src="./assets/about-gallery-1.jpg" className="w-[259px]" />
+              <img src="./assets/about-gallery-2.jpg" className="w-[536px]" />
             </div>
             <div className="flex flex-row gap-[17px]">
-              <img src="./assets/about-gallery-3.png" className="w-[536px]" />
-              <img src="./assets/about-gallery-4.png" className="w-[259px]" />
+              <img src="./assets/about-gallery-3.jpg" className="w-[536px]" />
+              <img src="./assets/about-gallery-4.jpg" className="w-[259px]" />
             </div>
             <div className=" flex flex-row gap-[17px]">
-              <img src="./assets/about-gallery-5.png" className="w-[259px]" />
-              <img src="./assets/about-gallery-6.png" className="w-[536px]" />
+              <img src="./assets/about-gallery-5.jpg" className="w-[259px]" />
+              <img src="./assets/about-gallery-6.jpg" className="w-[536px]" />
             </div>
           </div>
           <div className="md:hidden flex flex-col gap-2.5 relative">
-            <img src="./assets/about-gallery-mobile-1.png" className="w-full h-[250px]" />
-            <img src="./assets/about-gallery-mobile-2.png" className="w-full h-[250px]" />
-            <img src="./assets/about-gallery-mobile-3.png" className="w-full h-[250px]" />
+            <img src="./assets/about-gallery-mobile-1.jpg" className="w-full h-[250px]" />
+            <img src="./assets/about-gallery-mobile-2.jpg" className="w-full h-[250px]" />
+            <img src="./assets/about-gallery-mobile-3.jpg" className="w-full h-[250px]" />
           </div>
           <div className="md:hidden block -translate-y-[50px] relative">
             <img src={AboutRectangleMobile} className="w-full h-auto" />
@@ -220,7 +220,7 @@ export default () => (
         <div className="md:flex hidden flex-row items-center">
           <div className="relative">
             <div className="absolute w-[204px] h-[204px] -bottom-[17px] -right-[35px] border-[3px] border-[#196DB7]"></div>
-            <img src="./assets/about5.png" className="w-[481px] relative z-10" />
+            <img src="./assets/about5.jpg" className="w-[481px] relative z-10" />
           </div>
           <img src="./assets/about6.png" className="w-[357px] relative -translate-x-1/2 z-20" />
         </div>

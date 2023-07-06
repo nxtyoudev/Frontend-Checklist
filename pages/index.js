@@ -12,7 +12,7 @@ export default () => (
   <div>
     <Head>
       <title>MG - Sommer</title>
-      <link rel="icon" href="/logo.png" />
+      <link rel="icon" href="/logo.jpg" />
     </Head>
     <Navbar />
     <Hero />

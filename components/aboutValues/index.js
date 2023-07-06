@@ -11,7 +11,7 @@ export default () => (
       <div className="md:flex hidden flex-row items-center">
         <div className="relative">
           <div className="absolute w-[204px] h-[204px] -bottom-[17px] -right-[35px] border-[3px] border-[#196DB7]"></div>
-          <img src="./assets/about5.png" className="w-[481px] relative z-10" />
+          <img src="./assets/about5.jpg" className="w-[481px] relative z-10" />
         </div>
         <img src="./assets/about6.png" className="w-[357px] relative -translate-x-1/2 z-20" />
       </div>
