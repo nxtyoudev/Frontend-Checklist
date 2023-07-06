@@ -14,7 +14,7 @@ const responsive1 = {
 const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
   const { carouselState: { currentSlide } } = rest;
   return (
-    <div className="absolute  right-[calc((100%-157px)/2)] md:right-[60%] bottom-[52%] md:bottom-[20%]">
+    <div className="absolute  right-[calc((100%-157px)/2)] md:right-[60%] bottom-[48%] md:bottom-[20%]">
       <div className='flex gap-8'>
         <button onClick={() => previous()}>
           <svg width="50" height="12" viewBox="0 0 50 12" fill="none" xmlns="http://www.w3.org/2000/svg">
