@@ -9,6 +9,7 @@ const offer = () => {
     <div>
       <Head>
         <title>Offer</title>
+        <link rel="icon" href="/logo.png" />
       </Head>
       <OfferNavbar />
       <div className="w-full flex flex-col items-center">

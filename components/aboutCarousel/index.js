@@ -7,12 +7,32 @@ const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
+    partialVisibilityGutter: 1000,
+    items: 1
+  },
+  desktop4xl: {
+    breakpoint: { max: 3000, min: 1920 },
+    partialVisibilityGutter: 850,
+    items: 1
+  },
+  desktop3x_2: {
+    breakpoint: { max: 1920, min: 1720 },
     partialVisibilityGutter: 800,
     items: 1
   },
+  desktop3xl: {
+    breakpoint: { max: 1720, min: 1536 },
+    partialVisibilityGutter: 700,
+    items: 1
+  },
+  desktop2xl: {
+    breakpoint: { max: 1536, min: 1280 },
+    partialVisibilityGutter: 550,
+    items: 1
+  },
   desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    partialVisibilityGutter: 600,
+    breakpoint: { max: 1280, min: 1024 },
+    partialVisibilityGutter: 400,
     items: 1
   },
   tablet: {

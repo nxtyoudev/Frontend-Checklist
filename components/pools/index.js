@@ -54,14 +54,14 @@ export default () => (
             <div className="relative">
               <img className='max-h-[660px]' src='./assets/stat_carousel2.png' />
               <div className='absolute bottom-[70px] w-full text-white'>
-                <div className="text-center text-[16px]">AUßEN</div>
+                <div className="text-center text-[16px]">INNEN</div>
                 <div className="text-center text-[32px]">Poolanalgen</div>
               </div>
             </div>
             <div className="relative">
               <img className='max-h-[660px]' src='./assets/stat_carousel3.png' />
               <div className='absolute bottom-[70px] w-full text-white'>
-                <div className="text-center text-[16px]">INNEN</div>
+                <div className="text-center text-[16px]">AUßEN</div>
                 <div className="text-center text-[32px]">Poolanalgen</div>
               </div>
             </div>
@@ -76,24 +76,28 @@ export default () => (
         </div>
         <div className='flex flex-col justify-center pl-[20px]'>
           <div className='text-[16px] text-[#1E75EE]'>UNSERE POOLS</div>
-          <h2 className='text-[48px] text-black font-bold max-w-2xl'>Dein zuverlässiger Partner rund um Deinen Pool</h2>
-          <p className='text-[18px] text-black  max-w-md'>Mit uns baust Du Deinen Traumpool nach Deinen Wünschen und sparen dabei nachhaltig Energie.</p>
+          <h2 className='mt-2.5 text-[48px] leading-[52px] text-black font-bold max-w-2xl'>Dein zuverlässiger Partner rund um Deinen Pool</h2>
+          <p className='mt-[30px] text-[18px] text-black  max-w-md'>Mit uns baust Du Deinen Traumpool nach Deinen Wünschen und sparen dabei nachhaltig Energie.</p>
           <div>
-            <button type="button" className="text-white text-[16px]  bg-[#1E75EE] px-[24px] py-[14px] mt-[20px]">
-              JETZT ANFRAGEN
-            </button>
+            <a href="https://formular.mg-pools.de/start/" target="_blank">
+              <button type="button" className="text-white text-[16px]  bg-[#1E75EE] px-[24px] py-[14px] mt-[20px]">
+                JETZT ANFRAGEN
+              </button>
+            </a>
           </div>
         </div>
       </div>
       <div className='md:hidden grid grid-cols-1 md:grid-cols-2 pt-[20px] pb-[70px] gap-8'>
         <div className='flex flex-col justify-center px-[20px]'>
           <div className='text-[14px] text-[#1E75EE]'>UNSERE POOLS</div>
-          <h2 className='text-[32px] text-black font-bold max-w-2xl'>Dein zuverlässiger Partner rund um Deinen Pool</h2>
-          <p className='text-[16px] text-black  max-w-md'>Mit uns baust Du Deinen Traumpool nach Deinen Wünschen und sparen dabei nachhaltig Energie.</p>
+          <h2 className='mt-2.5 text-[32px] leading-9 text-black font-bold max-w-2xl'>Dein zuverlässiger Partner rund um Deinen Pool</h2>
+          <p className='mt-2.5 text-[16px] text-black  max-w-md'>Mit uns baust Du Deinen Traumpool nach Deinen Wünschen und sparen dabei nachhaltig Energie.</p>
           <div>
-            <button type="button" className="w-full  text-white text-[16px]  bg-[#1E75EE] px-[24px] py-[14px] mt-[20px]">
-              JETZT ANFRAGEN
-            </button>
+            <a href="https://formular.mg-pools.de/start/" target="_blank">
+              <button type="button" className="w-full  text-white text-[16px]  bg-[#1E75EE] px-[24px] py-[14px] mt-[20px]">
+                JETZT ANFRAGEN
+              </button>
+            </a>
           </div>
         </div>
         <div className='pr-[50px] md:pr-[0]'>

@@ -11,7 +11,8 @@ import Faq from '../components/Faqs';
 export default () => (
   <div>
     <Head>
-    <title>MG - Sommer</title>
+      <title>MG - Sommer</title>
+      <link rel="icon" href="/logo.png" />
     </Head>
     <Navbar />
     <Hero />

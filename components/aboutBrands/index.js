@@ -46,7 +46,7 @@ export default () => (
                     <ul className="items-center gap-8 justify-around">
                         {carouselData.map((carousel, index) => (
                             <li>
-                                <img src={carousel.img} key={index} />
+                                <img src={carousel.img} key={index} className="min-w-[100px]" />
                             </li>
                         ))}
                     </ul>
@@ -55,7 +55,7 @@ export default () => (
                     <ul className="items-center gap-8 justify-around">
                         {carouselData.map((carousel, index) => (
                             <li>
-                                <img src={carousel.img} key={index} />
+                                <img src={carousel.img} key={index} className="min-w-[100px]" />
                             </li>
                         ))}
                     </ul>
