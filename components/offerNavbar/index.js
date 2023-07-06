@@ -32,10 +32,10 @@ export default () => {
                   <a className="px-4 py-2 text-[18px] font-normal text-black" href="/">Startseite</a>
                 </li>
                 <li>
-                  <a className="px-4 py-2 text-[18px] font-semibold text-black" href="/about">Über Mich</a>
+                  <a className="px-4 py-2 text-[18px] font-normal text-black" href="/about">Über Mich</a>
                 </li>
                 <li>
-                  <a className="px-4 py-2 text-[18px] font-normal text-black" href="/offer">Angebot</a>
+                  <a className="px-4 py-2 text-[18px] font-semibold text-black" href="/offer">Angebot</a>
                 </li>
               </ul>
             </nav>
