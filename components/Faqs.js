@@ -48,12 +48,12 @@ const FAQ = () => {
     setClicked(index);
   };
   return (
-    <section className='container mx-auto'>
+    <section className='container mx-auto mt-12 md:mt-24'>
       <div className='text-center px-[20px]'>
         <div className='text-left md:text-center text-[14px] md:text-[16px] text-[#1E75EE]'>FAQ</div>
         <div className='text-left md:text-center font-bold  text-[32px] md:text-[48px]'>Häufig gestellte Fragen</div>
       </div>
-      <div className="relative flex flex-col lg:flex-row gap-0 lg:gap-10 mt-4 md:mt-14 px-[20px]">
+      <div className="relative flex flex-col lg:flex-row gap-0 lg:gap-10 mt-4 md:mt-14 md:mb-28 mb-14 px-[20px]">
         <div className="absolute md:w-[132px] w-[94px] md:h-[132px] h-[89px] md:-top-10 top-10 md:-left-[34px] left-1 border-[3px] border-[#196DB7] z-0"></div>
         <div className="relative flex-1 z-10">
           {faqData.map((item, idx) => (

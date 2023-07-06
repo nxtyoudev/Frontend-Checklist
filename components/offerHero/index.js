@@ -6,18 +6,19 @@ import AboutRectangleMobile from '../../public/assets/aboutrectangle-mobile.svg'
 import DiamondSvg from '../../public/assets/aboutdiamond.svg'
 
 export default () => (
-  <div className="max-w-[1440px] py-[71px]">
+  <div className="max-w-[1440px] py-[71px] mt-[50px] md:mt-[97px]">
     <div className='flex flex-col md:gap-5 gap-2.5 items-center justify-center'>
-      <div className="md:w-[515px] w-full font-bold text-black md:text-[44px] text[32px] md:leading-[44px] leading-8 text-center">
+      <div className="md:w-[515px] w-[345px] font-bold text-black md:text-[44px] text-[32px] md:leading-[44px] leading-8 text-center">
         Wir liefern wir unvergessliche Sommer
       </div>
-      <div className="md:text-lg text-base md:leading-7 leading-6 text-black text-center">
+      <div className="mt-2.5 md:text-lg text-base md:leading-7 leading-6 text-black text-center">
         pünktlich – hochwertig – verlässlich – kundenorientiert
       </div>
     </div>
     <div className="relative w-full md:mt-[105px] mt-[51px] md:px-[100px] px-[15px]">
       <div className="absolute md:w-[284px] w-[97px] md:h-[281px] h-[94px] md:-top-[50px] -top-[12px] md:right-[25px] right-0.5 border-[3px] border-[#196DB7]"></div>
-      <img src='./assets/abouthero.png' className="relative md:w-auto w-full md:h-auto h-[325px] bg-cover" />
+      <img src='./assets/abouthero.png' className="relative md:block hidden md:w-auto w-full md:h-auto h-[325px] bg-cover" />
+      <img src='./assets/abouthero-mobile.png' className="relative md:hidden block w-full h-[325px] bg-cover" />
       <div className="absolute md:w-auto w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
         <div className="flex flex-row md:flex-nowrap flex-wrap items-center md:justify-start justify-center md:gap-24 gap-10">
           <div className="flex flex-col items-center">
@@ -64,9 +65,11 @@ export default () => (
             <img src={HandsSvg} />
             <div className="md:text-lg text-base md:leading-7 leading-6 text-black">Individuelles Angebot auf Deine Bedürfnisse abgestimmt</div>
           </div>
-          <button className="md:mt-[50px] mt-2 md:px-[30px] md:w-auto w-full py-[14px] bg-[#1E75EE]">
-            <div className="font-medium text-base leading-6 text-white text-center">JETZT ANFRAGEN</div>
-          </button>
+          <a href="https://formular.mg-pools.de/start/" target="_blank">
+            <button className="md:mt-[50px] mt-2 md:px-[30px] md:w-auto w-full py-[14px] bg-[#1E75EE]">
+              <div className="font-medium text-base leading-6 text-white text-center">JETZT ANFRAGEN</div>
+            </button>
+          </a>
         </div>
       </div>
       <div className="md:mt-[45px] mt-[30px] flex md:flex-row flex-col md:justify-between md:gap-[151px] gap-4 items-center">
@@ -81,19 +84,22 @@ export default () => (
             <img src={HandsSvg} />
             <div className="md:text-lg text-base md:leading-7 leading-6 text-black">Energie effizient und nachhaltig </div>
           </div>
-          <button className="md:mt-[50px] mt-2 md:px-[30px] md:w-auto w-full py-[14px] bg-[#1E75EE]">
-            <div className="font-medium text-base leading-6 text-white">JETZT ANFRAGEN</div>
-          </button>
+          <a href="https://formular.mg-pools.de/start/" target="_blank">
+            <button className="md:mt-[50px] mt-[28px] md:px-[30px] md:w-auto w-full py-[14px] bg-[#1E75EE]">
+              <div className="font-medium text-base leading-6 text-white">JETZT ANFRAGEN</div>
+            </button>
+          </a>
         </div>
         <div className="relative md:block hidden">
           <img src='./assets/about3.png' className="min-w-[469px] relative" />
         </div>
       </div>
-      <div className="md:mt-[45px] mt-[30px] flex md:flex-row flex-col md:justify-between md:gap-[151px] gap-4 items-center">
+      <div className="md:mt-[45px] mt-[58px] flex md:flex-row flex-col md:justify-between md:gap-[151px] gap-4 items-center relative">
+        <div className="md:hidden block absolute -top-[29px] -left-[30px] w-[90px] h-[76px] border-[3px] border-[#196DB7]"></div>
         <div className="relative">
           <div className="md:block hidden absolute w-[204px] h-[204px] -top-4 -right-7 border-[3px] border-[#196DB7] z-0"></div>
           <img src='./assets/about4.png' className="min-w-[469px] md:block hidden relative " />
-          <img src='./assets/aboutmobile4.png' className="w-full h-[190px] md:hidden block relative" />
+          <img src='./assets/aboutmobile4.png' className="w-full md:hidden block relative" />
         </div>
         <div>
           <div className="md:text-base text-sm leading-4 text-[#1E75EE]">03/ Pflege und Wartung</div>
@@ -103,9 +109,11 @@ export default () => (
             <img src={MedalSvg} />
             <div className="md:text-lg text-base md:leading-7 leading-6 text-black">Lieferung der kompletten Schwimmbadchemie, Pflegeprodukten und Zubehör Namenhafter Hersteller</div>
           </div>
-          <button className="md:mt-[50px] mt-2 md:px-[30px] md:w-auto w-full py-[14px] bg-[#1E75EE]">
-            <div className="font-medium text-base leading-6 text-white">JETZT ANFRAGEN</div>
-          </button>
+          <a href="https://formular.mg-pools.de/start/" target="_blank">
+            <button className="md:mt-[50px] mt-[28px] md:px-[30px] md:w-auto w-full py-[14px] bg-[#1E75EE]">
+              <div className="font-medium text-base leading-6 text-white">JETZT ANFRAGEN</div>
+            </button>
+          </a>
         </div>
       </div>
     </div>
@@ -214,25 +222,25 @@ export default () => (
           <div className="md:text-base text-sm text-[#1E75EE]">
             MEINE WERTE
           </div>
-          <div className="mt-2.5 font-bold md:text-[48px] text-[32px] md:leading-[52px] leading-9 text-black md:text-start text-center">
+          <div className="mt-2.5 md:w-[475px] w-full font-bold md:text-[48px] text-[32px] md:leading-[52px] leading-9 text-black md:text-start text-center">
             Nach diesen Werten lebe und arbeite ich.
           </div>
           <div className="md:mt-11 mt-[30px] flex flex-col md:gap-[25px] gap-4">
-            <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-black">
+            <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-[#CCDBDC]">
               <img src={HandsSvg} />
               <div className="flex flex-col gap-2.5">
                 <div className="font-semibold text-[21px] leading-8 text-black">Zuverlässigkeit</div>
                 <div className="text-lg leading-7">Zuverlässigkeit ist der Schlüssel zu Erfolg und Zufriedenheit.</div>
               </div>
             </div>
-            <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-black">
+            <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-[#CCDBDC]">
               <img src={DiamondSvg} />
               <div className="flex flex-col gap-2.5">
                 <div className="font-semibold text-[21px] leading-8 text-black">Qualität</div>
                 <div className="text-lg leading-7">Ich schätze Qualität als einen wertvollen Schatz</div>
               </div>
             </div>
-            <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-black">
+            <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-[#CCDBDC]">
               <img src={MedalSvg} />
               <div className="flex flex-col gap-2.5">
                 <div className="font-semibold text-[21px] leading-8 text-black">Vertrauen</div>
@@ -242,6 +250,11 @@ export default () => (
           </div>
         </div>
       </div>
+      <a href="https://formular.mg-pools.de/start/" target="_blank">
+        <button className="md:hidden block mt-[26px] w-full py-[14px] bg-[#1E75EE]">
+          <div className="font-medium text-base leading-6 text-white">JETZT ANFRAGEN</div>
+        </button>
+      </a>
     </div>
   </div>
 );

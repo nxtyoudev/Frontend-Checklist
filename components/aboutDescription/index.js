@@ -21,7 +21,7 @@ export default () => (
 			<div className="md:text-[18px] text-base md:leading-7 leading-6 text-black md:w-[529px] w-full">
 				Dabei lege ich Wert darauf, meinen Auftraggebern die gesamte Leistungspalette anbieten zu können: Ich verwirkliche die Schwimmbadträume meiner Auftraggeber von der Beratung und Projektplanung über den Rohbau und die Montage der Schwimmbadtechnik bis hin zum Kundendienst. Hierzu gehört auch die komplette Leitung entsprechender Projekte sowohl im privaten als auch im öffentlichen Bereich.
 			</div>
-			<div className="md:text-[18px] text-base md:leading-7 leading-6 text-black md:w-[529px] w-full">
+			<div className="md:mt-6 md:text-[18px] text-base md:leading-7 leading-6 text-black md:w-[541px] w-full">
 				Ob Sie sich einen einfachen Außenpool wünschen, einen exklusiven Privatpool bauen oder Ihren Gästen als Leiter eines 5-Sterne-Luxushotels einen exquisiten Wellnessbereich anbieten möchten: Ich stehe Ihnen gerne mit meiner langjährigen Erfahrung bei der Umsetzung Ihrer Pläne zur Verfügung!
 			</div>
 		</div>

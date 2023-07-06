@@ -23,16 +23,16 @@ export default () => {
 
   return (
     <>
-      <header className={`${(visible === false && isMenuActive === false) && "bg-white"} fixed w-full z-[1000] top-0 lg:bg-white`}>
+    <header className={`${(visible === false && isMenuActive === false) && "bg-white"} fixed w-full z-[1000] top-0 lg:bg-white`}>
         <div className={`${isMenuActive ? 'hidden' : ''} container mx-auto px-6 py-3 flex justify-between items-center h-[97px]`}>
           <div className="hidden lg:flex justify-between items-center flex-[2]  ">
             <nav className="">
               <ul className="flex justify-end items-center">
                 <li>
-                  <a className="px-4 py-2 text-[18px] font-semibold text-black" href="/">Startseite</a>
+                  <a className="px-4 py-2 text-[18px] font-normal text-black" href="/">Startseite</a>
                 </li>
                 <li>
-                  <a className="px-4 py-2 text-[18px] font-normal text-black" href="/about">Über Mich</a>
+                  <a className="px-4 py-2 text-[18px] font-semibold text-black" href="/about">Über Mich</a>
                 </li>
                 <li>
                   <a className="px-4 py-2 text-[18px] font-normal text-black" href="/offer">Angebot</a>
@@ -41,11 +41,16 @@ export default () => {
             </nav>
           </div>
           <div className='flex-[1] flex justify-center'>
-            <img src="./assets/header-logo.png" alt="trafalgar logo" className="w-[90px]" />
+            <img src="./assets/header_logo.svg" alt="trafalgar logo" />
           </div>
           <div className='flex-[2] flex justify-end '>
             <a href="https://formular.mg-pools.de/start/" target="_blank">
-              <button className="hidden lg:block border border-[#1E75EE] px-[31px] py-[18px] text-[14px] text-black">Jetzt anfragen</button>
+              <button className="hidden lg:flex flex-row items-center gap-2 bg-[#1E75EE] pl-[21px] pr-[27px] py-5 font-medium text-[14px] text-white uppercase">
+                <div>Zum Angebot</div>
+                <svg width="39" height="12" viewBox="0 0 39 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M38.5303 6.53033C38.8232 6.23744 38.8232 5.76256 38.5303 5.46967L33.7574 0.696699C33.4645 0.403806 32.9896 0.403806 32.6967 0.696699C32.4038 0.989593 32.4038 1.46447 32.6967 1.75736L36.9393 6L32.6967 10.2426C32.4038 10.5355 32.4038 11.0104 32.6967 11.3033C32.9896 11.5962 33.4645 11.5962 33.7574 11.3033L38.5303 6.53033ZM0 6.75H38V5.25H0V6.75Z" fill="white"/>
+                </svg>
+              </button>
             </a>
             <div className="block lg:hidden">
               <button
@@ -53,16 +58,13 @@ export default () => {
                 onClick={handleClick}
               >
                 <span
-                  className={`block h-[3px] w-7 rounded-full ${visible ? "bg-white" : "bg-black"
-                    } transition-all group-hover:bg-gallery`}
+                  className={`block h-[3px] w-7 rounded-full bg-black transition-all group-hover:bg-gallery`}
                 ></span>
                 <span
-                  className={`block h-[3px] w-7 rounded-full ${visible ? "bg-white" : "bg-black"
-                    } transition-all group-hover:bg-gallery`}
+                  className={`block h-[3px] w-7 rounded-full bg-black transition-all group-hover:bg-gallery`}
                 ></span>
                 <span
-                  className={`block h-[3px] w-7 rounded-full ${visible ? "bg-white" : "bg-black"
-                    } transition-all group-hover:bg-gallery`}
+                  className={`block h-[3px] w-7 rounded-full bg-black transition-all group-hover:bg-gallery`}
                 ></span>
               </button>
               <button
@@ -114,17 +116,19 @@ export default () => {
             </div>
             <div className="mt-[38px] pl-6 flex flex-col gap-6">
               <Link href="/">
-                <span className="font-semibold text-black text-lg leading-7">
+                <span className="text-lg leading-7 font-normal text-black">
                   Startseite
                 </span>
               </Link>
               <Link href="/about">
-                <span className="text-lg leading-7 font-normal text-black">
+                <span
+                  className="text-lg leading-7 font-normal text-black"
+                >
                 Über Mich
                 </span>
               </Link>
               <Link href="/offer">
-                <span className="text-lg leading-7 font-normal text-black">
+                <span className="font-semibold text-black text-lg leading-7">
                   Angebot
                 </span>
               </Link>

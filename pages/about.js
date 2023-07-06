@@ -11,22 +11,23 @@ import AboutBrands from '../components/aboutBrands';
 import AboutReviews from '../components/aboutReviews';
 
 const about = () => {
-return (
-    <div className="about-container">
-        <Head>
-    <title>MG - Sommer</title>
-    </Head>
-        <AboutNavbar />
-        <AboutHero />
-        <AboutDescription />
-        <AboutStats />
-        <AboutValues />
-        <AboutCarousel />
-        <AboutBrands />
-        <AboutReviews />
-        <Footer />
-    </div>
-  )
+    return (
+        <div className="about-container">
+            <Head>
+                <title>MG - Sommer</title>
+                <link rel="icon" href="/logo.png" />
+            </Head>
+            <AboutNavbar />
+            <AboutHero />
+            <AboutDescription />
+            <AboutStats />
+            <AboutValues />
+            <AboutCarousel />
+            <AboutBrands />
+            <AboutReviews />
+            <Footer />
+        </div>
+    )
 }
 
 export default about

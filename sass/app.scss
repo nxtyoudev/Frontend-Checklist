@@ -1095,9 +1095,9 @@ body {
 }
 
 .about-carousel-container {
-  margin-top: 113px;
-  padding-left: 100px;
-  overflow-x: hidden;
+  // margin-top: 113px;
+  // padding-left: 100px;
+  // overflow-x: hidden;
 }
 .about-carousel-inner {
   transition: all 0.3s ease-in-out;
@@ -1150,18 +1150,36 @@ body {
     font-weight: 700;
   }
 }
-.about-brands-carousel {
-  display: flex;
-  align-items: center;
-  gap: 75px;
-  animation: scroll 10s linear infinite;
+
+.about-brands-carousel-section {
+  width: 100%;
+  overflow: hidden;
 }
-@keyframes scroll {
+
+.about-brands-carousel-article {
+  display: flex;
+  width: 200%;
+  animation: bannermove 20s linear infinite;
+}
+
+.about-brands-carousel-div {
+  width: 100%;
+}
+
+.about-brands-carousel-div ul {
+  display: flex;
+  
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+@keyframes bannermove {
   0% {
-    transform: translateX(0%);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-60vw);
+    transform: translateX(-50%);
   }
 }
 .about-reviews-container {

@@ -19,25 +19,25 @@ export default () => (
         <div className="md:text-base text-sm text-[#1E75EE]">
           MEINE WERTE
         </div>
-        <div className="mt-2.5 font-bold md:text-[48px] text-[32px] md:leading-[52px] leading-9 text-black md:text-start text-center">
+        <div className="mt-2.5 md:w-[475px] w-full font-bold md:text-[48px] text-[32px] md:leading-[52px] leading-9 text-black md:text-start text-center">
           Nach diesen Werten lebe und arbeite ich.
         </div>
         <div className="md:mt-11 mt-[30px] flex flex-col md:gap-[25px] gap-4">
-          <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-black">
+          <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-[#CCDBDC]">
             <img src={value1} />
             <div className="flex flex-col gap-2.5">
               <div className="font-semibold text-[21px] leading-8 text-black">Zuverlässigkeit</div>
               <div className="text-lg leading-7">Zuverlässigkeit ist der Schlüssel zu Erfolg und Zufriedenheit.</div>
             </div>
           </div>
-          <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-black">
+          <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-[#CCDBDC]">
             <img src={value2} />
             <div className="flex flex-col gap-2.5">
               <div className="font-semibold text-[21px] leading-8 text-black">Qualität</div>
               <div className="text-lg leading-7">Ich schätze Qualität als einen wertvollen Schatz</div>
             </div>
           </div>
-          <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-black">
+          <div className="w-full px-2.5 md:py-[22px] py-[14px] flex flex-row gap-[21px] items-start border border-[#CCDBDC]">
             <img src={value3} />
             <div className="flex flex-col gap-2.5">
               <div className="font-semibold text-[21px] leading-8 text-black">Vertrauen</div>
@@ -45,9 +45,11 @@ export default () => (
             </div>
           </div>
         </div>
-        <button className="md:w-auto w-full mt-[30px] px-[24px] py-[14px] bg-[#1E75EE]">
-          <div className="font-medium text-base leading-5 text-white uppercase">JETZT ANFRAGEN</div>
-        </button>
+        <a href="https://formular.mg-pools.de/start/" target="_blank">
+          <button className="md:w-auto w-full mt-[30px] px-[24px] py-[14px] bg-[#1E75EE]">
+            <div className="font-medium text-base leading-5 text-white uppercase">JETZT ANFRAGEN</div>
+          </button>
+        </a>
       </div>
     </div>
   </div>
