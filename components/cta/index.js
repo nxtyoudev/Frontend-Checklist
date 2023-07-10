@@ -36,7 +36,7 @@ export default () => (
         <div className='text-[16px] text-[#1E75EE]'>Über mich</div>
         <h2 className='text-[28px] text-black font-bold max-w-xl'>Es ist mehr als nur ein Pool - Es ist Leidenschaft</h2>
         <p className='text-[16px] text-black max-w-2xl py-[20px]'>Matthias Grundmann ist seit 2004 auf die Schwimmbad- und Wellnessbranche spezialisiert. Er bietet seinen Auftraggebern eine gesamte Leistungspalette von der Beratung bis hin zum Kundendienst für private Pools und Hotel Schwimmbäder - indoor & outdoor.</p>
-        <div className='grid grid-cols-3 justify-between'>
+        <div className='grid grid-cols-3 gap-[26px] justify-between'>
           <div className='text-[34px] text-center font-bold'>
             <div><span className='text-[#4A92F0]'>+</span>300</div>
             <div className='text-[16px] font-normal'>glückliche Kunden</div>
@@ -47,7 +47,7 @@ export default () => (
           </div>
           <div className='text-[34px] text-center font-bold'>
             <div><span className='text-[#4A92F0]'>+</span>50</div>
-            <div className='text-[16px] font-normal'>fertiggestellte neue Pools</div>
+            <div className='text-[16px] font-normal'>neue<br/>Pools</div>
           </div>
         </div>
         <div className=''>
