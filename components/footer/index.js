@@ -39,8 +39,8 @@ export default () => (
           <div className="font-medium text-base leading-6 text-[#1E75EE]">ÜBER UNS</div>
           <div className="mt-7 flex flex-col gap-2.5">
             <Link href='/about'><div className="font-medium text-sm leading-5 text-white">Über mich</div></Link>
-            <div className="font-medium text-sm leading-5 text-white">Impressum</div>
-            <div className="font-medium text-sm leading-5 text-white">Datenschutz</div>
+            <Link href="/impressum"><div className="font-medium text-sm leading-5 text-white">Impressum</div></Link>
+            <Link href="/datenschutz"><div className="font-medium text-sm leading-5 text-white">Datenschutz</div></Link>
           </div>
         </div>
         <div>
@@ -106,8 +106,8 @@ export default () => (
       <div>Webdesign by NXT-YOU GmbH</div>
     </div>
     <div className="mt-[44px] md:hidden flex flex-row justify-center gap-[53px] font-medium text-sm text-white">
-      <div>Impressum</div>
-      <div>Datenschutz</div>
+      <Link href="/impressum"><div>Impressum</div></Link>
+      <Link href="/datenschutz"><div>Datenschutz</div></Link>
     </div>
     <div className="mt-8 md:hidden block text-center text-xs font-medium text-white">
       <div>Le Chomat© 2023</div>
