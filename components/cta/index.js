@@ -42,7 +42,7 @@ export default () => (
             <div className='text-[16px] font-normal'>glückliche Kunden</div>
           </div>
           <div className='text-[34px] font-bold'>
-            <div><span>+</span><span className='text-[#4A92F0]'>20J</span></div>
+            <div><span>+</span><span className='text-black'>20</span><span className='text-[#4A92F0]'>J</span></div>
             <div className='text-[16px] font-normal'>Erfahrung</div>
           </div>
           <div className='text-[34px] font-bold'>
