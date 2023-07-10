@@ -55,11 +55,11 @@ const carouselContent = (a, b, c, d, e) => {
       <div className="flex-1">
         <div className="">
           <div className="pl-[20px] md:pl-[100px] relative text-center md:text-start">
-            <h2 className="text-[32px] md:text-[48px] font-bold relative">{a}</h2>
+            <h2 className="text-[32px] md:text-[48px] font-bold relative text-start">{a}</h2>
             <img src={Quote} width={86} className="md:relative absolute md:block py-[30px] bottom-0 z-0" />
-            <h3 className="text-[28px] ">{b} </h3>
+            <h3 className="text-[28px] mt-10">{b} </h3>
             <div className="">
-              <h4 className="text-[21px] mt-[25px] mb-[15px]">{c}</h4>
+              <h4 className="text-[21px] md:mt-[25px] mt-4 md:mb-[15px] mb-2.5">{c}</h4>
               <div className="flex md:justify-start justify-center">
                 <svg
                   width="26"
