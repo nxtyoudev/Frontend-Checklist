@@ -4,7 +4,7 @@ export default () => (
   <div className="relative w-full md:mt-[105px] mt-[70px] md:px-[100px] px-[15px]">
     <div className="absolute md:w-[284px] w-[97px] md:h-[281px] h-[94px] md:-top-[50px] -top-[12px] md:right-[25px] right-0.5 border-[3px] border-[#196DB7]"></div>
     <img src='./assets/abouthero.jpg' className="relative md:block hidden md:w-auto w-full md:h-auto h-[325px] bg-cover" />
-    <img src='./assets/abouthero-mobile.jpg' className="relative md:hidden block w-full h-[325px] bg-cover" />
+    <img src='./assets/abouthero-mobile.jpg' className="relative md:hidden block w-full h-[281px] bg-cover" />
     <div className="absolute md:w-auto w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
       <div className="flex flex-row md:flex-nowrap flex-wrap items-center md:justify-start justify-center md:gap-24 gap-10">
         <div className="flex flex-col items-center">
