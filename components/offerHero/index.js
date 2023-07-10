@@ -178,7 +178,7 @@ export default () => (
         </div>
         <div className="md:mt-[34px] mt-0 flex flex-col gap-[35px] md:w-[360px] w-full">
           <div className="flex flex-col md:gap-4 gap-2.5">
-            <div className="md:text-base text-sm md:leading-7 leading-[21px] text-[#1E75EE]">Unsere Kunden</div>
+            <div className="md:text-base text-sm md:leading-7 leading-[21px] text-[#1E75EE] uppercase">Unsere Kunden</div>
             <div className="font-semibold md:text-[28px] text-[24px] md:leading-[42px] leading-9 text-black">
               Hotels, private Pools, Wellness & Spa
             </div>
