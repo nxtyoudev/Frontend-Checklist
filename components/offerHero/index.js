@@ -85,7 +85,7 @@ export default () => (
         <div>
           <div className="md:text-base text-sm leading-4 text-[#1E75EE]">02/ umsetzung</div>
           <div className="mt-2.5 font-semibold md:text-[28px] text-2xl md:leading-[42px] leading-9 text-black">Bauen Deines Pools</div>
-          <div className="mt-2.5 md:text-lg text-base md:leading-7 leading-6 text-black">Im nächsten Schritt gehe ich mit meinem Team an die Umsetzung. Du musst dich um nichts kümmern. Wir bauen und Du genießt. </div>
+          <div className="mt-2.5 md:text-lg text-base md:leading-7 leading-6 text-black">Im nächsten Schritt gehe ich mit meinem Team an die Umsetzung. Du musst Dich um nichts kümmern. Wir bauen und Du genießt. </div>
           <div className="md:mt-[30px] mt-4 flex flex-row items-center gap-5">
             <img src={HandsSvg} />
             <div className="md:text-lg text-base md:leading-7 leading-6 text-black">Energie effizient und nachhaltig </div>
@@ -187,7 +187,7 @@ export default () => (
             Wir verbinden Leidenschaft mit Kompetenz und liefern Dir unvergessliche Sommermomente mit Deinem Pool-Traum!
           </div>
           <div className="md:text-lg text-base md:leading-7 leading-6 text-black">
-            Wir haben uns auf den Bau von privaten und öffentlichen Schwimmbädern fokussiert. Egal ob für Dein Zuhause im Garten, für den Wellness Bereich indoor oder für Deine Hotelanlage, um deinen Hotelgästen ein ganz besonderes Schwimm-Erlebnis zu bieten.
+            Wir haben uns auf den Bau von privaten und öffentlichen Schwimmbädern fokussiert. Egal ob für Dein Zuhause im Garten, für den Wellness Bereich indoor oder für Deine Hotelanlage, um Deinen Hotelgästen ein ganz besonderes Schwimm-Erlebnis zu bieten.
           </div>
         </div>
       </div>

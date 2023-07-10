@@ -60,7 +60,7 @@ export default () => (
         <img src='./assets/cta_photo.jpg' />
       </div>
     </div>
-    <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
+    <div className='pt-[20px] grid grid-cols-1 lg:grid-cols-2 gap-8'>
       <div className='flex flex-col justify-center px-[20px]'>
         <div className='text-[14px] md:text-[16px] text-[#1E75EE]'>SERVICES</div>
         <h2 className='mt-2.5 text-[32px] md:text-[39px] text-black font-bold max-w-xl'>Unsere Angebot abgestimmt auf Deine Bedürfnisse</h2>
@@ -70,7 +70,7 @@ export default () => (
             <div>
               <div className='text-[18px] md:text-[21px]'>NEUBAU DEINES POOLS</div>
               <div className='text-[14px] md:text-[16px] mt-[10px]'>Von der Planung bis zum Bau begleiten
-                wir dich zum Deinem Pool. </div>
+                wir dich zu Deinem Pool. </div>
             </div>
           </div>
           <div className='flex border border-[#CCDBDC] px-[10px] md:px-[40px] py-[15px] items-center gap-8'>

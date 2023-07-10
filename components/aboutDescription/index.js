@@ -17,7 +17,7 @@ export default () => (
 				<img src="./assets/about-description.jpg" />
 			</div>
 		</div>
-		<div className="md:mt-[69px] mt-[30px] flex md:flex-row flex-col md:justify-center justify-start md:gap-[90px] gap-2.5">
+		<div className="md:mt-[69px] mt-[30px] flex md:flex-row flex-col md:justify-between justify-start md:gap-[90px] gap-2.5">
 			<div className="md:text-[18px] text-base md:leading-7 leading-6 text-black md:w-[529px] w-full">
 				Dabei lege ich Wert darauf, meinen Auftraggebern die gesamte Leistungspalette anbieten zu können: Ich verwirkliche die Schwimmbadträume meiner Auftraggeber von der Beratung und Projektplanung über den Rohbau und die Montage der Schwimmbadtechnik bis hin zum Kundendienst. Hierzu gehört auch die komplette Leitung entsprechender Projekte sowohl im privaten als auch im öffentlichen Bereich.
 			</div>

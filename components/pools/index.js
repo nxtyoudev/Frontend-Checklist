@@ -77,7 +77,7 @@ export default () => (
         <div className='flex flex-col justify-center pl-[20px]'>
           <div className='text-[16px] text-[#1E75EE]'>UNSERE POOLS</div>
           <h2 className='mt-2.5 text-[48px] leading-[52px] text-black font-bold max-w-2xl'>Dein zuverlässiger Partner rund um Deinen Pool</h2>
-          <p className='mt-[30px] text-[18px] text-black  max-w-md'>Mit uns baust Du Deinen Traumpool nach Deinen Wünschen und sparen dabei nachhaltig Energie.</p>
+          <p className='mt-[30px] text-[18px] text-black  max-w-md'>Mit uns baust Du Deinen Traumpool nach Deinen Wünschen und sparst dabei nachhaltig Energie.</p>
           <div>
             <a href="https://formular.mg-pools.de/start/" target="_blank">
               <button type="button" className="text-white text-[16px]  bg-[#1E75EE] px-[24px] py-[14px] mt-[20px]">
@@ -91,7 +91,7 @@ export default () => (
         <div className='flex flex-col justify-center px-[20px]'>
           <div className='text-[14px] text-[#1E75EE]'>UNSERE POOLS</div>
           <h2 className='mt-2.5 text-[32px] leading-9 text-black font-bold max-w-2xl'>Dein zuverlässiger Partner rund um Deinen Pool</h2>
-          <p className='mt-2.5 text-[16px] text-black  max-w-md'>Mit uns baust Du Deinen Traumpool nach Deinen Wünschen und sparen dabei nachhaltig Energie.</p>
+          <p className='mt-2.5 text-[16px] text-black  max-w-md'>Mit uns baust Du Deinen Traumpool nach Deinen Wünschen und sparst dabei nachhaltig Energie.</p>
           <div>
             <a href="https://formular.mg-pools.de/start/" target="_blank">
               <button type="button" className="w-full  text-white text-[16px]  bg-[#1E75EE] px-[24px] py-[14px] mt-[20px]">

@@ -21,7 +21,7 @@ export default () => (
                 </svg>
               </button>
             </a>
-            <button className='text-center md:text-left border text-white gap-4  bg-transparent px-[26px] py-[19px]'>LEISTUNGEN</button>
+            <button className='text-center text-[14px] md:text-left border text-white gap-4  bg-transparent px-[26px] py-5'>LEISTUNGEN</button>
           </div>
         </div>
       </div>

@@ -41,7 +41,7 @@ export default () => (
 
       {carouselContent('Das sagen unsere Kunden:', 'Kompetenz trifft Leidenschaft!', 'Familie Bissinger', 'Sowohl der Bau als auch die Betreuung unseres Schwimmbades war bzw. ist 1.Klassig. Herr Grundmann stellt einen sehr kompetenten Service zur Verfügung. Toll - weiter so!', '/assets/ReferenceImage3.png')}
 
-      {carouselContent('Das sagen unsere Kunden:', 'Toller Service! Perfekte Planung!', 'Familie Schneider', 'Ein Traum wurde wahr mit MG-Schwimmbadtechnik, unser Pool. Von der Planung, Beratung bis zur Fertigstellung war alles sehr Fachkompetent und professionell.Toller Service, Nachsorge und Betreuung bis heute.Definitiv empfehlenswert !!!', '/assets/ReferenceImage4.png')}
+      {carouselContent('Das sagen unsere Kunden:', 'Toller Service! Perfekte Planung!', 'Familie Schneider', 'Ein Traum wurde wahr mit MG-Schwimmbadtechnik, unser Pool. Von der Planung, Beratung bis zur Fertigstellung war alles sehr fachkompetent und professionell.Toller Service, Nachsorge und Betreuung bis heute.Definitiv empfehlenswert !!!', '/assets/ReferenceImage4.png')}
 
       {carouselContent('Das sagen unsere Kunden:', 'Immer wieder gerne!', 'Familie Bachhuber', 'Wir haben 2021 mit Matthias unser Projekt Pool umgesetzt und waren mehr als zufrieden. Es wurde sich an alle Termine und an die vereinbarten Preise gehalten - was im Handwerk leider mittlerweile nicht mehr üblich ist. Jede seiner Arbeiten wurden perfekt ausgeführt und mit dem Ergebnis sind wir mehr als zufrieden. Wir würden uns immer wieder für ihn entscheiden!', '/assets/ReferenceImage5.png')}
 
