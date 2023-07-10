@@ -4,7 +4,7 @@ export default () => (
   <section className='relative'>
     <div className="md:hidden block absolute w-[228px] h-[175px] -top-10 left-3.5 border-[3px] border-[#196DB7] z-0"></div>
     <img className='hidden md:block relative' src='./assets/trust_background.jpg' />
-    <img className='block md:hidden w-full relative' src='./assets/trust_background2.jpg' />
+    <img className='block md:hidden w-full relative' src='./assets/trust_background2.png' />
     <div className='absolute w-full  top-[20%] md:top-[25%] 2xl:top-[30%] z-10'>
       <div className=' container mx-auto '>
         <div className='px-[50px]'>
