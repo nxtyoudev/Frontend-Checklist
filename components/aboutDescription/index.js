@@ -13,7 +13,7 @@ export default () => (
 					Meine Leidenschaft ist die Natur. Aus diesem Grund betreibe ich in meiner Freizeit gerne Outdoorsport wie Skifahren, Radfahren, Wandern oder Schwimmen. Ich weiß deshalb aus eigener Erfahrung, wie ein Swimmingpool aussehen muss, in dem man sich wohlfühlt wie der sprichwörtliche Fisch im Wasser. Seit über 14 Jahren habe ich mich deshalb auf die Schwimmbad- und Wellnessbranche spezialisiert.
 				</div>
 			</div>
-			<div className="flex-1">
+			<div className="flex-1 md:mt-0 mt-[45px]">
 				<img src="./assets/about-description.jpg" />
 			</div>
 		</div>
