@@ -66,19 +66,19 @@ export default () => (
         <div>
           <div className="md:text-base text-sm leading-4 text-[#1E75EE] uppercase">01/ angebot</div>
           <div className="mt-2.5 font-semibold md:text-[28px] text-2xl md:leading-[42px] leading-9 text-black">Individuelles Angebot</div>
-          <div className="mt-2.5 md:text-lg text-base md:leading-7 leading-6 text-black">Im ersten Schritt besprechen wir gemeinsam Dein Vorhaben und Deine individuellen Wünsche. Auf Deine Bedürfnisse angepasst arbeite ich für Dich einen genauen Plan für Dein Vorhaben aus. Wir besprechen alle Details und erst wenn Du mir das GO gibst, legen wir los. </div>
+          <div className="mt-2.5 md:text-lg text-base md:leading-7 leading-6 text-black">Im ersten Schritt besprechen wir gemeinsam Ihr Vorhaben und Ihre individuellen Wünsche. Auf Ihre Bedürfnisse angepasst arbeite ich für Sie einen genauen Plan für Ihr Vorhaben aus. Wir besprechen alle Details und erst wenn Sie mir das GO geben, legen wir los.</div>
           <div className="md:mt-[30px] mt-4 flex flex-row items-center gap-5">
             <img src={HandsSvg} />
-            <div className="md:text-lg text-base md:leading-7 leading-6 text-black">Individuelles Angebot auf Deine Bedürfnisse abgestimmt</div>
+            <div className="md:text-lg text-base md:leading-7 leading-6 text-black">Individuelles Angebot auf Ihre Bedürfnisse abgestimmt</div>
           </div>
-          <a href="https://formular.mg-pools.de/start/" target="_blank">
+          <a href="https://formular.mg-pools.de/start/" target="_blank" className="md:block hidden">
             <button className="md:mt-[50px] mt-2 md:px-[30px] md:w-auto w-full py-[14px] bg-[#1E75EE]">
               <div className="font-medium text-base leading-6 text-white text-center">JETZT ANFRAGEN</div>
             </button>
           </a>
         </div>
       </div>
-      <div className="md:mt-[45px] mt-[30px] flex md:flex-row flex-col md:justify-between md:gap-[151px] gap-4 items-center">
+      <div className="md:mt-[45px] mt-[88px] flex md:flex-row flex-col md:justify-between md:gap-[151px] gap-4 items-center">
         <div className="relative md:hidden block">
           <img src='./assets/aboutmobile3.jpg' className='w-full h-[190px] relative' />
         </div>
