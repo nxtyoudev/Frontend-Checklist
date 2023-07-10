@@ -19,7 +19,7 @@ export default () => (
         <div className="md:text-base text-sm text-[#1E75EE]">
           MEINE WERTE
         </div>
-        <div className="mt-2.5 md:w-[475px] w-full font-bold md:text-[48px] text-[32px] md:leading-[52px] leading-9 text-black md:text-start text-center">
+        <div className="mt-2.5 md:w-[475px] w-full font-bold md:text-[48px] text-[32px] md:leading-[52px] leading-9 text-black">
           Nach diesen Werten lebe und arbeite ich.
         </div>
         <div className="md:mt-11 mt-[30px] flex flex-col md:gap-[25px] gap-4">
