@@ -4,5 +4,6 @@
 import React from 'react';
 import '../sass/app.scss';
 import '../global.css';
+import SeoSchema from '../components/seoSchema';
 
-export default ({ Component, pageProps }) => <Component {...pageProps} />;
+export default ({ Component, pageProps }) => <><SeoSchema /> <Component {...pageProps} /></>;
