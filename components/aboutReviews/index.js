@@ -55,8 +55,8 @@ const carouselContent = (a, b, c, d, e) => {
       <div className="flex-1">
         <div className="">
           <div className="pl-[20px] md:pl-[100px] relative text-center md:text-start">
-            <h2 className="text-[32px] md:text-[48px] font-bold">{a}</h2>
-            <img src={Quote} width={86} className="md:relative absolute md:block py-[30px] bottom-0" />
+            <h2 className="text-[32px] md:text-[48px] font-bold relative">{a}</h2>
+            <img src={Quote} width={86} className="md:relative absolute md:block py-[30px] bottom-0 z-0" />
             <h3 className="text-[28px] ">{b} </h3>
             <div className="">
               <h4 className="text-[21px] mt-[25px] mb-[15px]">{c}</h4>
@@ -122,7 +122,7 @@ const carouselContent = (a, b, c, d, e) => {
                   />
                 </svg>
               </div>
-              <p className="text-[16px] md:text-[18px] mt-[15px] sm:max-w-sm md:max-w-md">{d}</p>
+              <p className="text-[16px] md:text-[18px] mt-[15px] sm:max-w-sm md:max-w-md relative z-10">{d}</p>
               <div className="flex gap-4 mt-[25px] justify-center md:justify-start">
                 <button className="border border-[rgba(0,0,0,0.2)] px-[7px] py-[14px]">23m³</button>
                 <button className="border border-[rgba(0,0,0,0.2)] px-[7px] py-[14px]">600L</button>
