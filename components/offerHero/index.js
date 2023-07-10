@@ -64,7 +64,7 @@ export default () => (
           <img src='./assets/aboutmobile2.jpg' className="w-full h-[190px] md:hidden block relative" />
         </div>
         <div>
-          <div className="md:text-base text-sm leading-4 text-[#1E75EE]">01/ angebot</div>
+          <div className="md:text-base text-sm leading-4 text-[#1E75EE] uppercase">01/ angebot</div>
           <div className="mt-2.5 font-semibold md:text-[28px] text-2xl md:leading-[42px] leading-9 text-black">Individuelles Angebot</div>
           <div className="mt-2.5 md:text-lg text-base md:leading-7 leading-6 text-black">Im ersten Schritt besprechen wir gemeinsam Dein Vorhaben und Deine individuellen Wünsche. Auf Deine Bedürfnisse angepasst arbeite ich für Dich einen genauen Plan für Dein Vorhaben aus. Wir besprechen alle Details und erst wenn Du mir das GO gibst, legen wir los. </div>
           <div className="md:mt-[30px] mt-4 flex flex-row items-center gap-5">
@@ -83,7 +83,7 @@ export default () => (
           <img src='./assets/aboutmobile3.jpg' className='w-full h-[190px] relative' />
         </div>
         <div>
-          <div className="md:text-base text-sm leading-4 text-[#1E75EE]">02/ Umsetzung</div>
+          <div className="md:text-base text-sm leading-4 text-[#1E75EE] uppercase">02/ DESIGN</div>
           <div className="mt-2.5 font-semibold md:text-[28px] text-2xl md:leading-[42px] leading-9 text-black">Bauen Deines Pools</div>
           <div className="mt-2.5 md:text-lg text-base md:leading-7 leading-6 text-black">Im nächsten Schritt gehe ich mit meinem Team an die Umsetzung. Du musst Dich um nichts kümmern. Wir bauen und Du genießt. </div>
           <div className="md:mt-[30px] mt-4 flex flex-row items-center gap-5">
@@ -108,7 +108,7 @@ export default () => (
           <img src='./assets/aboutmobile4.jpg' className="w-full md:hidden block relative" />
         </div>
         <div>
-          <div className="md:text-base text-sm leading-4 text-[#1E75EE]">03/ Pflege und Wartung</div>
+          <div className="md:text-base text-sm leading-4 text-[#1E75EE] uppercase">03/ Pflege und Wartung</div>
           <div className="mt-2.5 font-semibold md:text-[28px] text-2xl md:leading-[42px] leading-9 text-black">Lifetime Pool Care </div>
           <div className="mt-2.5 md:text-lg text-base md:leading-7 leading-6 text-black">Nachdem wir Dein Vorhaben umgesetzt haben, können wir uns weiterhin um die Wartung und Pflege der gesamten Schwimmbadtechnik kümmern.</div>
           <div className="md:mt-[30px] mt-4 flex flex-row items-center gap-5">
