@@ -68,7 +68,7 @@ export default () => (
             <div className="relative">
               <img className='w-[100%] max-h-[660px]' src='./assets/stat_carousel1.jpg' />
               <div className='absolute bottom-[70px] w-full text-white'>
-                <div className="text-center text-[16px]">INDOR</div>
+                <div className="text-center text-[16px]">Pools</div>
                 <div className="text-center text-[32px]">Hotelanlagen</div>
               </div>
             </div>
@@ -119,7 +119,7 @@ export default () => (
             <div className="relative">
               <img className='max-h-[660px]' src='./assets/stat_carousel1.jpg' />
               <div className='absolute bottom-[70px] w-full text-white'>
-                <div className="text-center text-[16px]">INDOR</div>
+                <div className="text-center text-[16px]">Pools</div>
                 <div className="text-center text-[32px]">Poolanalgen</div>
               </div>
             </div>
