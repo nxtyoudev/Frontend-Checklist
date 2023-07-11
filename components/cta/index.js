@@ -114,7 +114,7 @@ export default () => (
         </div>
       </div>
       <div className='max-w-[700px]'>
-        <div>
+        <div className=' sticky top-[97px]'>
           <img className=' pl-[5px] sm:pl-0 pr-[20px] sm:pr-0' src='./assets/cta_photo1.jpg' />
         </div>
       </div>
