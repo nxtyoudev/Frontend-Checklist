@@ -83,7 +83,7 @@ export default () => (
           <img src='./assets/aboutmobile3.jpg' className='w-full h-[190px] relative' />
         </div>
         <div>
-          <div className="md:text-base text-sm leading-4 text-[#1E75EE] uppercase">02/ DEUMSETZUNGSIGN</div>
+          <div className="md:text-base text-sm leading-4 text-[#1E75EE] uppercase">02/ UMSETZUNG</div>
           <div className="mt-2.5 font-semibold md:text-[28px] text-2xl md:leading-[42px] leading-9 text-black">Bauen Deines Pools</div>
           <div className="mt-2.5 md:text-lg text-base md:leading-7 leading-6 text-black">Im nächsten Schritt gehe ich mit meinem Team an die Umsetzung. Du musst Dich um nichts kümmern. Wir bauen und Du genießt. </div>
           <div className="md:mt-[30px] mt-4 flex flex-row items-center gap-5">
