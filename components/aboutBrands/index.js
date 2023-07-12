@@ -1,33 +1,29 @@
 import React from "react";
-import brands1 from '../../public/assets/brands1.svg'
-import brands2 from '../../public/assets/brands2.svg'
-import brands3 from '../../public/assets/brands3.svg'
-import brands4 from '../../public/assets/brands4.svg'
-import brands5 from '../../public/assets/brands5.svg'
-import brands6 from '../../public/assets/brands6.svg'
-import brands7 from '../../public/assets/brands7.svg'
 
 const carouselData = [
     {
-        img: brands1
+        img: './assets/1.png'
     },
     {
-        img: brands2
+        img: './assets/2.png'
     },
     {
-        img: brands3
+        img: './assets/3.png'
     },
     {
-        img: brands4
+        img: './assets/4.png'
     },
     {
-        img: brands5
+        img: './assets/5.png'
     },
     {
-        img: brands6
+        img: './assets/6.png'
     },
     {
-        img: brands7
+        img: './assets/7.png'
+    },
+    {
+        img: './assets/8.png'
     },
 ]
 

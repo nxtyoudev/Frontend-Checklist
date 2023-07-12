@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => (
   <>
-    <section className="header pt-[150px]" id="hero">
+    <section className="header md:pt-[150px] pt-[70px] md:h-auto h-[800px]" id="hero">
       <div className="header_info_holder">
         <div className="header__draw">
           <h1 className='font-bold md:text-[50px] text-[38px]'>seit</h1>

@@ -1,55 +1,49 @@
 import React from 'react';
 
 export default () => (
-    <>
-        <div className="stat-area hidden lg:block text-center">
-            <div className="stat-holder mx-auto">
-                <div className="stat_item">
-                    <span className="stat_item__h3">1090 Liter</span>
-                    <span className="stat_item__p">Fassungsvermögen</span>
-                </div>
-                <div className="stat_item">
-                    <span className="stat_item__h3">125 m³</span>
-                    <span className="stat_item__p">Beckengröße</span>
-                </div>
-                <div className="stat_item">
-                    <span className="stat_item__h3">290 h</span>
-                    <span className="stat_item__p">Spaß pro Jahr</span>
-                </div>
-                <div className="stat_item">
-                    <span className="stat_item__h3">2903+</span>
-                    <span className="stat_item__p">Unvergessliche Momente</span>
-                </div>
-                <a href="https://formular.mg-pools.de/start/" target="_blank">
-                    <div className="btn main-btn__dark hidden xl:block">
-                        <span>JETZT ANFRAGEN</span>
-                    </div>
-                </a>
-            </div>
+  <>
+    <div className="stat-area hidden lg:block text-center">
+      <div className="stat-holder mx-auto">
+        <div className="flex flex-row items-center gap-10">
+          <div className="stat_item">
+            <span className="stat_item__h3">100</span>
+            <span className="stat_item__p">gebaute Pools</span>
+          </div>
+          <div className="stat_item">
+            <span className="stat_item__h3">300</span>
+            <span className="stat_item__p">glückliche Kunden</span>
+          </div>
+          <div className="stat_item">
+            <span className="stat_item__h3">20</span>
+            <span className="stat_item__p">Jahre Erfahrung</span>
+          </div>
         </div>
-        <div className='block lg:hidden mt-[-100px] py-[50px]' style={{ backgroundImage: 'url(/assets/stat_background.png)', backgroundSize: '100% 100%' }}>
-            <div className="">
-                <div className="flex flex-row justify-center gap-[52px] pl-[34px] pr-4">
-                    <div className="text-center">
-                        <div className="text-[24px] font-medium">1090 Liter</div>
-                        <div className="text-[16px]">Fassungsvermögen</div>
-                    </div>
-                    <div className="text-center">
-                        <div className="text-[24px] font-medium">125 m³</div>
-                        <div className="text-[16px]">Beckengröße</div>
-                    </div>
-                </div>
-                <div className="mt-7 flex flex-row justify-center gap-[28px] pl-4 pr-4">
-                    <div className="text-center">
-                        <div className="text-[24px] font-medium">2903+</div>
-                        <div className="text-[16px]">Unvergessliche Momente</div>
-                    </div>
-                    <div className="text-center">
-                        <div className="text-[24px] font-medium">290 h</div>
-                        <div className="text-[16px]">Spaß pro Jahr</div>
-                    </div>
-                </div>
-            </div>
+        <a href="https://formular.mg-pools.de/start/" target="_blank">
+          <div className="px-6 py-[18px] border border-black lg:block hidden">
+            <span className="text-base font-medium leading-[150%] text-black">JETZT ANFRAGEN</span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div className='lg:hidden mt-[-100px] py-[50px] flex flex-col items-center' style={{ backgroundImage: 'url(/assets/stat_background.png)', backgroundSize: '100% 100%' }}>
+      <div className="">
+        <div className="flex flex-row pl-10">
+          <div className="text-center">
+            <div className="text-[30px] leading-[100%] font-medium text-black">20</div>
+            <div className="text-[20px] leading-[150%] font-normal text-black">Jahre Erfahrung</div>
+          </div>
         </div>
-    </>
+        <div className="mt-6 flex flex-row pl-6">
+          <div className="text-center">
+            <div className="text-[30px] leading-[100%] font-medium text-black">100</div>
+            <div className="text-[20px] leading-[150%] font-normal text-black">gebaute Pools</div>
+          </div>
+          <div className="text-center -mt-10">
+            <div className="text-[30px] leading-[100%] font-medium text-black">300</div>
+            <div className="text-[20px] leading-[150%] font-normal text-black">glückliche Kunden</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </>
 );

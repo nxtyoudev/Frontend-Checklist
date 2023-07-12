@@ -110,7 +110,7 @@ export default () => (
       <Link href="/datenschutz"><div>Datenschutz</div></Link>
     </div>
     <div className="mt-8 md:hidden block text-center text-xs font-medium text-white">
-      <div>Le Chomat© 2023</div>
+      <div>MG-Schwimmbadtechnik© 2023</div>
       <div>Webdesign by NXT-YOU GmbH</div>
     </div>
   </footer>
