@@ -27,13 +27,13 @@ export default () => (
     </div>
     <div className='lg:hidden mt-[-100px] py-[50px] flex flex-col items-center' style={{ backgroundImage: 'url(/assets/stat_background.png)', backgroundSize: '100% 100%' }}>
       <div className="">
-        <div className="flex flex-row pl-10">
+        <div className="flex flex-row pl-0">
           <div className="text-center">
             <div className="text-[30px] leading-[100%] font-medium text-black">20</div>
             <div className="text-[20px] leading-[150%] font-normal text-black">Jahre Erfahrung</div>
           </div>
         </div>
-        <div className="mt-6 flex flex-row pl-6">
+        <div className="mt-6 flex flex-row pl-0">
           <div className="text-center">
             <div className="text-[30px] leading-[100%] font-medium text-black">100</div>
             <div className="text-[20px] leading-[150%] font-normal text-black">gebaute Pools</div>
